@@ -11,4 +11,6 @@ The News and Weather app enables a user to browse through news headlines with di
 <b>Supported channels:</b>
 Android,
 iOS,
-Desktop Web
+Desktop Web,
+iPad,
+android tablet.

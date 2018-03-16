@@ -1,0 +1,29 @@
+{
+    "AS_RichText_a8c915f73e9b44e0acf94837a4cf6766": {
+        "id": "AS_RichText_a8c915f73e9b44e0acf94837a4cf6766",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "linktext"
+        }, {
+            "datatype": "string",
+            "name": "attributes"
+        }],
+        "contextObj": {
+            "name": "uwa4111ee47c4a412db70eb51f1d6127ad",
+            "type": "userwidgets",
+            "KUID": "a4111ee47c4a412db70eb51f1d6127ad"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c442544d38de45009a88bd9949e48453",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"clcickec\");\nthis.onLinkClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

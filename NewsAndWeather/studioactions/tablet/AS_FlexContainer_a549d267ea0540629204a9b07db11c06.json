@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_a549d267ea0540629204a9b07db11c06": {
+        "id": "AS_FlexContainer_a549d267ea0540629204a9b07db11c06",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "OPEN_URL_ide_onClick_a19c712b3a844ec586a716861d4502c9",
+            "type": "OPEN_URL",
+            "url": "https://community.kony.com/documentation",
+            "callbackType": null
+        }]
+    }
+}

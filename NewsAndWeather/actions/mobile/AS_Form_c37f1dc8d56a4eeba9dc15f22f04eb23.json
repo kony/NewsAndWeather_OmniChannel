@@ -1,0 +1,24 @@
+{
+    "AS_Form_c37f1dc8d56a4eeba9dc15f22f04eb23": {
+        "id": "AS_Form_c37f1dc8d56a4eeba9dc15f22f04eb23",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b7e61c0deb3a4169a987b8d1a8590c54"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d12a79cdfbbc46a38c8562f1b5747d34",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.destroyForm(\"frmFramework\")",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

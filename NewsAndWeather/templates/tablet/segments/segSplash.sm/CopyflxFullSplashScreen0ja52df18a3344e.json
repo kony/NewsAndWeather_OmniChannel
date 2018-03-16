@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sda2776a088e47218ed607c7942c64d4",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxDescription",
+        "flxImgContainer"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "tablet",
+            "name": "CopyflxFullSplashScreen0ja52df18a3344eController"
+        }
+    },
+    "enablescrolling": true,
+    "id": "CopyflxFullSplashScreen0ja52df18a3344e",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "c2137d06f7344e7db50b462e4e7112d0",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "segSplash",
+    "pf": "segSplash",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

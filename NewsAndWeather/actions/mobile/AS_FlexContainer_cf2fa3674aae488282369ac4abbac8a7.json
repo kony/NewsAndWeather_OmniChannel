@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_cf2fa3674aae488282369ac4abbac8a7": {
+        "id": "AS_FlexContainer_cf2fa3674aae488282369ac4abbac8a7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_c4e0cc15ebc64cbfa75933dcceb7f3fe",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setSelection",
+            "display": "setSelection",
+            "inputparams": [{
+                "name": "id"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

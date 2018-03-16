@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s5e3d9d223404c45b7eb21894405b1b1",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "flxFullSplashScreen"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "GalaxyS5",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "segSplash",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isvisible": true,
+    "kuid": "j528a59024b44810897ebf0f5d33c00d",
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "spaip",
+    "retainscrollposition": false,
+    "shellCSS": "and_GalaxyS5",
+    "titleBarSkin": "s2ab8882b80342ff8ec247c454800961",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

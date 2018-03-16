@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "38%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1e79139836047d78b467f75770f82b4",
+    "_text_": "News Details..... ........ ..... ......... ...... ...................... ....... ................... ................ .......... .......... ...",
+    "_top_": {
+        "type": "string",
+        "value": "56%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "CopylblNewsDetail0f0ee2e840a8a44",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "c69f2b0d054d4da888f6e32277421d8c",
+    "name": "kony.ui.Label",
+    "parent": "CopyflxNewsContainer0e4442f21c3754d",
+    "pf": "frmNewsAndWeather",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

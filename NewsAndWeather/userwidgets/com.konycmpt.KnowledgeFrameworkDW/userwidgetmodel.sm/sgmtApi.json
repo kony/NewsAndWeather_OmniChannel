@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "desktop": {
+        "_data_": [
+            {
+                "lblNameOfAPI": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "lblNameOfAPI": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "lblNameOfAPI": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            }
+        ],
+        "rowTemplateId": "d6035b531bc3445f87f041d52d8341c9",
+        "rowtemplate": "flxFeatureRowTemp",
+        "widgetdatamap": {
+            "flxFeatureRowTemp": "flxFeatureRowTemp",
+            "lblNameOfAPI": "lblNameOfAPI"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "sgmtApi",
+    "ide_onRowClick": "AS_Segment_ce4cc9572abe4dfc97fe8c0a08a08411",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "i389a7449db94c30abb7973c6894c0af",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegData",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "sbcc7b2d6ae14f83bdde659ef7d12120",
+    "rowskin": "sa258c9378bf4b2a9aa2466bb99d718c",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s274718c0fee42d7a817324f80cfd67e",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxFeatureRowTemp": "flxFeatureRowTemp",
+        "lblNameOfAPI": "lblNameOfAPI"
+    },
+    "zindex": 1
+}

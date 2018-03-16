@@ -1,0 +1,23 @@
+{
+    "AS_Button_ica62d908edc4e8bbe1b29333ab1fe00": {
+        "id": "AS_Button_ica62d908edc4e8bbe1b29333ab1fe00",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "fd38f73c93004453bb8ab446dab7e3e4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j614139356ad446caa3a68cf4390fa2d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.phone.dial(\"1234a\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

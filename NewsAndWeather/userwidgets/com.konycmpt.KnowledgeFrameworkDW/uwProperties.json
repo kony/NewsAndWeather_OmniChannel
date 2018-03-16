@@ -1,0 +1,44 @@
+{
+    "classname": "KnowledgeFrameworkDW",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "j76447d4995e40a6bdd6e4833a164a7c",
+                    "paramList": [],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cc47f92d7e4947dbb4391555be05b4cf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konycmpt",
+    "version": "1.0.0"
+}

@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "90dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa24272997a744cc8ef0fbd6b75add43",
+    "_src_": "konymp_pl_shoe_1_list.png",
+    "_top_": {
+        "type": "string",
+        "value": "14dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "iphone",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "imgNewsIcon",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "e07e0dd4f31f433dad3d27bca4fc6c71",
+    "name": "kony.ui.Image2",
+    "parent": "flexMainNews",
+    "pf": "segNewsDetails",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

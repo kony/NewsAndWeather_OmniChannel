@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "22.23%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s3341f6765e2472a994ea7378942f2d3",
+    "_top_": {
+        "type": "string",
+        "value": "0.00%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "children": [
+        "flexWeather1",
+        "flexWeather2",
+        "flexWeather3",
+        "flexWeather4",
+        "flexWeather5"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexWeather",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ee12fcf571ea4cf0880f7d04977f70e7",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexScrollNewsAndWeather",
+    "pf": "frmNewsAndWeather",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

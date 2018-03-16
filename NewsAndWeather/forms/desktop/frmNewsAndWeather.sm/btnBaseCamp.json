@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s231d7f01a6f4cbea89eb3bb3f413574",
+    "_text_": "      Kony Base Camp",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s81c1fefd732480a8ddda0f573225c65"
+        }
+    },
+    "displaytext": true,
+    "focusskin": "s823c0a1a85a4141898fbfdd5cf78235",
+    "id": "btnBaseCamp",
+    "ide_onClick": "AS_Button_iecaa4e2c0a642d2aa7a8cbe4dee224e",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c21bac583e18426e95a12e45417a5fbc",
+    "name": "kony.ui.Button",
+    "parent": "flxHamMenu",
+    "pf": "frmNewsAndWeather",
+    "wType": "Button",
+    "zindex": 1
+}

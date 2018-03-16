@@ -1,0 +1,59 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s30a95d147bd40b2b0cd03f050980c4e",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "CopyimgNewsThumb0d5bc97b6bd8745",
+        "CopylblNewsTitle0hd6d650f404b45",
+        "CopylblNewsDetail0f0ee2e840a8a44"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CopyflxNewsContainer0e4442f21c3754d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e8579107f1d445ef8c935aa6aa1ec59d",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "CopyflxNewsRow0ebaabb4999be4f",
+    "pf": "frmNewsAndWeather",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

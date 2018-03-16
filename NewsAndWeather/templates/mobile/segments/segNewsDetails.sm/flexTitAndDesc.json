@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfd175df69f743a69bda059fa8d549f5",
+    "_top_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "65.74%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "NewsTitle",
+        "newsShortDesc",
+        "lblDummy"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexTitAndDesc",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f061193ea52a431aac324aef4aa646ae",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexMainNews",
+    "pf": "segNewsDetails",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_e396f958cade410bb1b4757f82158d28": {
+        "id": "AS_FlexContainer_e396f958cade410bb1b4757f82158d28",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_ff0379ac57294dccb641a50b44ced3a9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setFooterMenu",
+            "display": "setFooterMenu",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

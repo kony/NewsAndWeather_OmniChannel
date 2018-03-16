@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "11dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa24272997a744cc8ef0fbd6b75add43",
+    "_src_": "weather_large_rain_heavy.png",
+    "_top_": {
+        "type": "string",
+        "value": "23.92%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.52%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmNewsAndWeather",
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgWeatherIcon4",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "e73549a063ae48abaf24091a8144a8ac",
+    "name": "kony.ui.Image2",
+    "parent": "flexWeather4",
+    "pf": "frmNewsAndWeather",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

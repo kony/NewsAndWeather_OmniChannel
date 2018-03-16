@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_a7d21bdb905542e388601a79d73a657c": {
+        "id": "AS_FlexContainer_a7d21bdb905542e388601a79d73a657c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g6ba67723b6c41ef9923992e7dff592e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// if(this.view.rchtextDoc.isVisible === true)\n//   this.onClickDisappear(eventobject);\n// else\n//   this.onClickDisplay(eventobject);\nthis.showAccord(eventobject.id);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

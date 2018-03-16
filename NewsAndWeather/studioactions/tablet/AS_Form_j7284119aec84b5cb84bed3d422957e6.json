@@ -1,0 +1,24 @@
+{
+    "AS_Form_j7284119aec84b5cb84bed3d422957e6": {
+        "id": "AS_Form_j7284119aec84b5cb84bed3d422957e6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i3b2147705b44608897746c4e20c2543"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cd7c50a3cf5a47e6a515ec1a77978a97",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.frmNewsAndWeatherPostShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

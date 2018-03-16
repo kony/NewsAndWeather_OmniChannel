@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sf72cc01afeb4d54b81d34332b091fb3",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "frmNameToNavigate": "frmNewsAndWeather"
+    },
+    "id": "SplashScreen",
+    "info": null,
+    "isvisible": true,
+    "kuid": "cc34f87297c548db9e3a618061a09f9c",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmSplash",
+    "pf": "frmSplash",
+    "snaptogrid": true,
+    "sourceUserWidget": "i08e3fe67b6f44f89ca4ba00cce00e05",
+    "wType": "UserWidgetInstance"
+}

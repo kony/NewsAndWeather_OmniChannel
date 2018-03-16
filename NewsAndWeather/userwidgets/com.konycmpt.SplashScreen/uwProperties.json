@@ -1,0 +1,93 @@
+{
+    "classname": "SplashScreen",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a6e50b1459ad463595c4228d6067de96",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setSplashScreenData",
+                    "pw": {
+                        "displayName": "setSplashScreenData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i08e3fe67b6f44f89ca4ba00cce00e05",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a17aeea205ed44e69bdd8fc7645c84b5",
+                    "paramList": [],
+                    "propertyKey": "showFirstScreen",
+                    "pw": {
+                        "displayName": "showFirstScreen",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i08e3fe67b6f44f89ca4ba00cce00e05",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c3458895bf8b4ecf875020ae991a4734",
+                    "paramList": [
+                        {
+                            "name": "frmNameToNavigate"
+                        }
+                    ],
+                    "propertyKey": "onGetStarted",
+                    "pw": {
+                        "displayName": "onGetStarted",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "i08e3fe67b6f44f89ca4ba00cce00e05",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "ac34468107254d348eb9af0d22d7c054",
+                    "originalPropertyKey": "frmNameToNavigate",
+                    "propertyIndex": 1,
+                    "propertyKey": "frmNameToNavigate",
+                    "pw": {
+                        "displayName": "frmNameToNavigate",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "i08e3fe67b6f44f89ca4ba00cce00e05",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konycmpt",
+    "version": "1.0.0"
+}

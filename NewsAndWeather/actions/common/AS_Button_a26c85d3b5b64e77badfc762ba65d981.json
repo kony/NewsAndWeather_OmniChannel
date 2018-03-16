@@ -1,0 +1,17 @@
+{
+    "AS_Button_a26c85d3b5b64e77badfc762ba65d981": {
+        "id": "AS_Button_a26c85d3b5b64e77badfc762ba65d981",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_da2fc5f0c8404465836b3d640ba774f1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openEmail();",
+            "callbackType": null
+        }]
+    }
+}

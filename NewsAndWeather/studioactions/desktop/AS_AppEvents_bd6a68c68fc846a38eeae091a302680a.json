@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_bd6a68c68fc846a38eeae091a302680a": {
+        "id": "AS_AppEvents_bd6a68c68fc846a38eeae091a302680a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bbbe7327bdd84eccbbb954918a480432",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "desktopwebPostAppInit();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

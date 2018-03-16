@@ -1,0 +1,15 @@
+{
+    "background_color": "ddddddff",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "font_color": "00a0dd",
+    "iphone": {
+        "font_name": "SFUIText-Regular"
+    },
+    "isDefaultSkin": false,
+    "kuid": "s56d3fc13c1e4e3ebad8876ed4996788",
+    "wType": "Segment"
+}

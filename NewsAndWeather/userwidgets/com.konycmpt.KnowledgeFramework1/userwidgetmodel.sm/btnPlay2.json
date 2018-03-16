@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "36.36%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s22519d1bcfd4135b70b76b309b05512",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "69dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "scb18cc0002241129bbc243457ecf966",
+    "id": "btnPlay2",
+    "ide_onClick": "AS_Button_jf7ec43e72814d60aadf22cdef2aa6b6",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dcd5b38aeb9d4a7e9562fb05ac71536b",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_jf7ec43e72814d60aadf22cdef2aa6b6",
+    "parent": "flexImageVideo2",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

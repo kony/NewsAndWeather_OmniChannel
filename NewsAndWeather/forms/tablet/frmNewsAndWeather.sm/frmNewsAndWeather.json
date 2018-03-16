@@ -1,0 +1,124 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4d1b1ab47c547cfb0d4cb9b38de0071",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "ide_onOrientationChange": "AS_Form_h14b65dae92b4c298e1e7d126b2b778d",
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxHam",
+        "flxBody",
+        "flxKnowledgeFramework",
+        "btnKnowledgeFramework",
+        "flxNewsDetails",
+        "flxBlur"
+    ],
+    "configureExtendBottom": false,
+    "configureExtendTop": false,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "tablet",
+            "name": "frmNewsAndWeatherController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPad3",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "frmNewsAndWeather",
+    "ide_postShow": "AS_Form_j7284119aec84b5cb84bed3d422957e6",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 2,
+    "ipad": {
+        "ide_onOrientationChange": "AS_Form_i99526dd1f824638ae6bdec5ce71376d",
+        "needAppMenu": false,
+        "psp": {
+            "configureExtendBottom": false,
+            "configureExtendTop": false,
+            "configureStatusBarStyle": true,
+            "inputAccessoryViewType": 2,
+            "needsIndicatorDuringPostShow": false,
+            "statusBarHidden": false,
+            "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
+            "titleBarConfig": {
+                "buttonClosureLeftSideView": "",
+                "buttonClosureRightSideView": "",
+                "buttonText": "Edit",
+                "leftButtonText": "Back",
+                "leftTitle": "Back",
+                "prevFormTitle": false,
+                "renderTitleText": true,
+                "rightTitle": "Edit",
+                "titleBarLeftSideView": "button",
+                "titleBarRightSideView": "button",
+                "titleClosureLeftSideView": "",
+                "titleClosureRightSideView": "",
+                "visible": false
+            }
+        },
+        "titleBar": false
+    },
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "isvisible": true,
+    "kuid": "i3b2147705b44608897746c4e20c2543",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "needsindicatorduringpostshow": false,
+    "paddinginpixel": false,
+    "platform": "ipad",
+    "prevDevice": "iPad3",
+    "prevPlatform": "ipad",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPad3",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaandroidtablet": {
+        "needAppMenu": false
+    },
+    "spaipad": {
+        "needAppMenu": false
+    },
+    "spawindowstablet": {
+        "needAppMenu": false
+    },
+    "statusbarstyle": "STATUS_BAR_STYLE_DEFAULT",
+    "titleBarSkin": "s2ab8882b80342ff8ec247c454800961",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form",
+    "windows8": {
+        "needAppMenu": false
+    }
+}

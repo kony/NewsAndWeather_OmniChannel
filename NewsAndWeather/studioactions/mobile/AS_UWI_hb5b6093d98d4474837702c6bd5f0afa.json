@@ -1,0 +1,24 @@
+{
+    "AS_UWI_hb5b6093d98d4474837702c6bd5f0afa": {
+        "id": "AS_UWI_hb5b6093d98d4474837702c6bd5f0afa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b7e61c0deb3a4169a987b8d1a8590c54"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ge0bf0fb221349d9b9cb406da6e57237",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.phone.openEmail([\"\"],\n                     [\"\"],\n                     [\"\"],\n                     'Functional Preview for News & Weather',\n                     \"Hi<br>Please preview the News & weather app in Kony Visualizer Functional Preview using the following link:<br>https://www.kony.com/marketplace/app_preview?apptolaunch=FDLWF<br>or<br>Use the cloud code <b>FDLWF<b> in the Kony Visualizer Functional Preview Cloud tab.<br><br><i><b><u>Note:</b></u> If you don’t have Kony Visualizer Functional Preview installed on your mobile, this link will take you to the download page in App Store/Play Store.</i>\", \n                     true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scb172468e0542bab6b11173ed63d11e",
+    "_text_": "Open in browser",
+    "_top_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "scb172468e0542bab6b11173ed63d11e",
+    "id": "ButtonRound",
+    "ide_onClick": "AS_Button_j335c743e10643d4850db366fb3143ff",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ec06b947fe524fee8bb2bdb71204559e",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "flxFullNewsWrap",
+    "pf": "frmNewsAndWeather",
+    "wType": "Button",
+    "zindex": 1
+}

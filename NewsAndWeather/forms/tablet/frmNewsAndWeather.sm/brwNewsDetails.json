@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_type_": 5,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 69,
+    "detecttelnumber": true,
+    "htmlstring": "<!DOCTYPE html>\n<html>\n<head>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\n.loader {\n  border: 16px solid #f3f3f3;\n  border-radius: 50%;\n  border-top: 16px solid #3498db;\n  width: 120px;\n  height: 120px;\n  -webkit-animation: spin 2s linear infinite; /* Safari */\n  animation: spin 2s linear infinite;\n}\n\n/* Safari */\n@-webkit-keyframes spin {\n  0% { -webkit-transform: rotate(0deg); }\n  100% { -webkit-transform: rotate(360deg); }\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}\n</style>\n</head>\n<body>\n<center>\n<div class=\"loader\"></div>\n  </center>\n</body>\n</html>\n",
+    "id": "brwNewsDetails",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a1e2e503763d485ca902566c1ca548fa",
+    "localurl": "w27f1f8729424c8d94109a27e051206c",
+    "margininpixel": false,
+    "method": "get",
+    "name": "kony.ui.Browser",
+    "paddinginpixel": false,
+    "parent": "flxFullNewsWrap",
+    "pf": "frmNewsAndWeather",
+    "requesturlconfig": {
+        "URL": "https://www.google.com",
+        "requestMethod": "get"
+    },
+    "screenlevelwidget": false,
+    "url": "",
+    "wType": "Browser",
+    "zindex": 1
+}

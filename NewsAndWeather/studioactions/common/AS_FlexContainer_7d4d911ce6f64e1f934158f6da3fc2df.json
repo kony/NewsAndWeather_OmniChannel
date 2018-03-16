@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_7d4d911ce6f64e1f934158f6da3fc2df": {
+        "id": "AS_FlexContainer_7d4d911ce6f64e1f934158f6da3fc2df",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu4aefd4ccd4f43c288e73b769abc427f",
+            "type": "userwidgets",
+            "KUID": "u4aefd4ccd4f43c288e73b769abc427f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ab471ead721f4646a204b227cb03eedc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this._hamburgerDirection == \"Left\"){   \t\nthis.view.flxMainSlidingMenu.isVisible = true;\nthis.view.flxMainSlidingMenu.left = \"-20%\";\nthis.view.flxHamParent.left = \"67.5%\";\nthis.view.imgHamIcon.setVisibility(false);\nthis.view.flxCover.isVisible = true;\nthis.view.forceLayout();\n}\nelse{\n  this.view.flxMainSlidingMenu.isVisible = true;\nthis.view.flxMainSlidingMenu.left = \"0%\";\nthis.view.flxHamParent.left = \"20%\";\nthis.view.imgHamIcon.setVisibility(false);\nthis.view.flxCover.isVisible = true;\nthis.view.forceLayout();\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

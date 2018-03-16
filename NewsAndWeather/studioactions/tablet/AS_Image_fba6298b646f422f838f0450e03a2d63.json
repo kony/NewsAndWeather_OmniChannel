@@ -1,0 +1,23 @@
+{
+    "AS_Image_fba6298b646f422f838f0450e03a2d63": {
+        "id": "AS_Image_fba6298b646f422f838f0450e03a2d63",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_ad3f5468dfce430a826fb9ea150dea18",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.changeNewsDetailsVisibleState();",
+            "callbackType": null
+        }]
+    }
+}

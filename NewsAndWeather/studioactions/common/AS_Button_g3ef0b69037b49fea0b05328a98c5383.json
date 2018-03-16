@@ -1,0 +1,23 @@
+{
+    "AS_Button_g3ef0b69037b49fea0b05328a98c5383": {
+        "id": "AS_Button_g3ef0b69037b49fea0b05328a98c5383",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwa4111ee47c4a412db70eb51f1d6127ad",
+            "type": "userwidgets",
+            "KUID": "a4111ee47c4a412db70eb51f1d6127ad"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i8e9f0e57c244aa6b7b80d5d0e808156",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickFloatingButton();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

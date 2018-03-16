@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_d91d9d544ce74d8586a39a5565b3e799": {
+        "id": "AS_FlexContainer_d91d9d544ce74d8586a39a5565b3e799",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a7c88aeef31d4b56ab3e53f3fe35ffed",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.segGetStarted.pageSkin = \"sknpaging\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

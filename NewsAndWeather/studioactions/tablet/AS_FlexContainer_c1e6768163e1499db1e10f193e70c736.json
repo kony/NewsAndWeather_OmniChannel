@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_c1e6768163e1499db1e10f193e70c736": {
+        "id": "AS_FlexContainer_c1e6768163e1499db1e10f193e70c736",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i3b2147705b44608897746c4e20c2543"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e51334cc4a90434c8a5562f85e530fdb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setCategorySelected(eventobject.id);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_i719b3ff2f5745d5a5f32a8fff0609b2": {
+        "id": "AS_Form_i719b3ff2f5745d5a5f32a8fff0609b2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b7e61c0deb3a4169a987b8d1a8590c54"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b42893d096b545a48936da8005b0c3b3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(kony.store.getItem(\"isFirstTime\") !== \"false\") {\n  this.view.flexKn.isVisible = true;\n}else{\n  this.view.flexKn.isVisible = false;\n}\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

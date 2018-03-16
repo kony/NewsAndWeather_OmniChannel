@@ -1,0 +1,17 @@
+{
+    "android": {
+        "font_name": "roboto.regular"
+    },
+    "background_color": "ffffffff",
+    "bg_type": "one",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "iphone": {
+        "font_name": "SFUIText-Regular"
+    },
+    "isDefaultSkin": false,
+    "kuid": "sd3eff04e170450ca85314e7c1552081",
+    "wType": "Segment"
+}

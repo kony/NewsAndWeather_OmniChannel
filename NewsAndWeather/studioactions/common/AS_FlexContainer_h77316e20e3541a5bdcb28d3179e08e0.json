@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_h77316e20e3541a5bdcb28d3179e08e0": {
+        "id": "AS_FlexContainer_h77316e20e3541a5bdcb28d3179e08e0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u8ab5661ff134ce7b364cb9b1282988c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f7182c7f21cd4baeb0811d81f6d586ef",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.bookHotel();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

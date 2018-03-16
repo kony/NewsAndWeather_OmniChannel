@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "26dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s842c130ba5f4c3880cb9f4d24f67fc0",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "9dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "uwu4aefd4ccd4f43c288e73b769abc427f",
+        "platform": "iphone",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "id": "imgFooter",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": false,
+    "kuid": "eecb5b3d3a994a62bb46932095f7a168",
+    "name": "kony.ui.Image2",
+    "parent": "flxBotom",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

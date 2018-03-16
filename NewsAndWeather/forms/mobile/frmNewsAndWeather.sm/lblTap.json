@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7.41%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s10caacaf0c74dac9b889c11e2f99865",
+    "_text_": "Tap this button to explore the knowledge framework",
+    "_top_": {
+        "type": "string",
+        "value": "63.05%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "lblTap",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "b36ecd994ab343cbb44eafdc71b1ddbd",
+    "name": "kony.ui.Label",
+    "parent": "flexKn",
+    "pf": "frmNewsAndWeather",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

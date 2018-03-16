@@ -1,0 +1,58 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "33.87%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2.70%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s9fbac19d47542b9918b3a268cee894e",
+    "_top_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "7.71%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "focusskin": "s9b583720b6f4913ae9a85052ad83f11",
+    "id": "flexHamClick",
+    "ide_onClick": "AS_FlexContainer_j1c3bfb2e3e14e7bbec3366f1de8645d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "bb523d01f41b442b8d67671c2c56dc50",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "onclick": "AS_FlexContainer_j1c3bfb2e3e14e7bbec3366f1de8645d",
+    "parent": "headerContainer",
+    "pf": "frmNewsAndWeather",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

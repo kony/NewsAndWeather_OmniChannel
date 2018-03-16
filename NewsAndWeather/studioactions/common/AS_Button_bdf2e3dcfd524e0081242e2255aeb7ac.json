@@ -1,0 +1,17 @@
+{
+    "AS_Button_bdf2e3dcfd524e0081242e2255aeb7ac": {
+        "id": "AS_Button_bdf2e3dcfd524e0081242e2255aeb7ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h165db304b7c40d2bb4fd4d791694d2c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickPlayButton(eventobject.id);",
+            "callbackType": null
+        }]
+    }
+}

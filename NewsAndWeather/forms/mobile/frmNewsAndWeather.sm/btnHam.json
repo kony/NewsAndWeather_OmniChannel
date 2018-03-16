@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "15.63%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1c57706125f446b95c29b3ac4877042",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "16.88%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "4.94%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "scb18cc0002241129bbc243457ecf966",
+    "id": "btnHam",
+    "info": null,
+    "isvisible": true,
+    "kuid": "fb4e04e35e3f458e86401040d8f7da96",
+    "name": "kony.ui.Button",
+    "parent": "headerContainer",
+    "pf": "frmNewsAndWeather",
+    "wType": "Button",
+    "zindex": 1
+}

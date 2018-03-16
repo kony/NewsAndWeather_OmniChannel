@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s231d7f01a6f4cbea89eb3bb3f413574",
+    "_text_": "U.S.",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s823c0a1a85a4141898fbfdd5cf78235",
+    "id": "btnCat3",
+    "ide_onClick": "AS_Button_d4439ebe012b4a9e8ce6fc291e238e27",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ic5a00fadac34f2da183ff6cb099e061",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxCategories",
+    "pf": "frmNewsAndWeather",
+    "wType": "Button",
+    "zindex": 1
+}

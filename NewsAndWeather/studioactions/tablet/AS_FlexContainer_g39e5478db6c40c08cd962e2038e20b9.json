@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_g39e5478db6c40c08cd962e2038e20b9": {
+        "id": "AS_FlexContainer_g39e5478db6c40c08cd962e2038e20b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "OPEN_URL_ide_onClick_a92938d4bd7249cb9a62cb5862f32cc4",
+            "type": "OPEN_URL",
+            "url": "https://basecamp.kony.com/s/",
+            "callbackType": null
+        }]
+    }
+}

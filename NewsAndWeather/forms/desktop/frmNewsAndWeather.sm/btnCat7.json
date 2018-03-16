@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_skin_": "s231d7f01a6f4cbea89eb3bb3f413574",
+    "_text_": "SPORTS",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s823c0a1a85a4141898fbfdd5cf78235",
+    "id": "btnCat7",
+    "ide_onClick": "AS_Button_b26062a68e45468cb8cb7f12b1bbb705",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b756572a4cf54b459595609c339779ba",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxCategories",
+    "pf": "frmNewsAndWeather",
+    "wType": "Button",
+    "zindex": 1
+}

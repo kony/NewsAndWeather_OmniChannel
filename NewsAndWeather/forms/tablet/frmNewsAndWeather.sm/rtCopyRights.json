@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sade16f0553e49d8b656d3d7cea2dbee",
+    "_text_": "Copyrights 2018 @ <b>Kony.com</b>\n All rights reserved.\n",
+    "_top_": {
+        "type": "string",
+        "value": "2px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "rtCopyRights",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dc1f6684251442bfa6ae07263fec2671",
+    "name": "kony.ui.RichText",
+    "parent": "flxHamWrapper",
+    "pf": "frmNewsAndWeather",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

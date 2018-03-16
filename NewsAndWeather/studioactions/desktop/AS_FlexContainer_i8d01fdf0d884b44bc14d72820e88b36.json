@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_i8d01fdf0d884b44bc14d72820e88b36": {
+        "id": "AS_FlexContainer_i8d01fdf0d884b44bc14d72820e88b36",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_afd1337411d04d24a288626a92f5742b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxKnowledgeFramework.isVisible = !this.view.flxKnowledgeFramework.isVisible;",
+            "callbackType": null
+        }]
+    }
+}

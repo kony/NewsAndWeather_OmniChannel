@@ -1,0 +1,245 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "editstyle": "none",
+    "enabledictionary": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segGetStarted",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "editStyle": "none",
+            "enableDictionary": false,
+            "indicator": "rowselect",
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "b7b568a995bd4880a4f5cc3e53fbfc6a",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgGetStart": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "img1.png"
+                },
+                "lblAppTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblSplashDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "RichText"
+                },
+                "lblStrip": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            {
+                "imgGetStart": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "img1.png"
+                },
+                "lblAppTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                },
+                "lblSplashDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "RichText"
+                },
+                "lblStrip": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            }
+        ],
+        "rowTemplateId": "j528a59024b44810897ebf0f5d33c00d",
+        "rowtemplate": "flxFullSplashScreen",
+        "sectionHeaderTemplateId": null,
+        "selectionBehaviorConfig": null,
+        "widgetdatamap": {
+            "flexAppName": "flexAppName",
+            "flxDescription": "flxDescription",
+            "flxFullSplashScreen": "flxFullSplashScreen",
+            "flxImgContainer": "flxImgContainer",
+            "imgGetStart": "imgGetStart",
+            "lblAppTitle": "lblAppTitle",
+            "lblSplashDesc": "lblSplashDesc",
+            "lblStrip": "lblStrip"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "dot_normal.png",
+    "pageondotimage": "dot_active.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "SplashScreen",
+    "pf": "userwidgetmodel",
+    "progressindicatorcolor": "white",
+    "retainselection": false,
+    "rowcounter": 2,
+    "rowfocusskin": "sbcc7b2d6ae14f83bdde659ef7d12120",
+    "rowskin": "sfb86851fec1410a929d8b38f0e69945",
+    "rowtemplate": "flxFullSplashScreen",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s274718c0fee42d7a817324f80cfd67e",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 1536,
+        "widthRatio": 0
+    },
+    "tablet": {
+        "_data_": [
+            {
+                "imgGetStart": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "img1.png"
+                },
+                "lblAppTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Kony News & Weather"
+                },
+                "lblSplashDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "RichText"
+                },
+                "lblStrip": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "imgGetStart": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "img1.png"
+                },
+                "lblAppTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Kony News & Weather"
+                },
+                "lblSplashDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "RichText"
+                },
+                "lblStrip": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            {
+                "imgGetStart": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "img1.png"
+                },
+                "lblAppTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Kony News & Weather"
+                },
+                "lblSplashDesc": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "RichText"
+                },
+                "lblStrip": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            }
+        ],
+        "rowTemplateId": "j54ea9bd0791457887bb592f1f10c284",
+        "rowtemplate": "CopyflxFullSplashScreen0ja52df18a3344e",
+        "widgetdatamap": {
+            "CopyflxFullSplashScreen0ja52df18a3344e": "CopyflxFullSplashScreen0ja52df18a3344e",
+            "flexAppName": "flexAppName",
+            "flxDescription": "flxDescription",
+            "flxImgContainer": "flxImgContainer",
+            "imgGetStart": "imgGetStart",
+            "lblAppTitle": "lblAppTitle",
+            "lblSplashDesc": "lblSplashDesc",
+            "lblStrip": "lblStrip"
+        }
+    },
+    "viewtype": "pageview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CopyflxFullSplashScreen0ja52df18a3344e": "CopyflxFullSplashScreen0ja52df18a3344e",
+        "flexAppName": "flexAppName",
+        "flxDescription": "flxDescription",
+        "flxImgContainer": "flxImgContainer",
+        "imgGetStart": "imgGetStart",
+        "lblAppTitle": "lblAppTitle",
+        "lblSplashDesc": "lblSplashDesc",
+        "lblStrip": "lblStrip"
+    },
+    "widgetskin": "s12fd7a51571422089ea38f3b706ef09",
+    "zindex": 1
+}

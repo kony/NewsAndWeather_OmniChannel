@@ -1,0 +1,24 @@
+{
+    "AS_Button_iecaa4e2c0a642d2aa7a8cbe4dee224e": {
+        "id": "AS_Button_iecaa4e2c0a642d2aa7a8cbe4dee224e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g66b540469264921941dad9c4f85745e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "OPEN_URL__fa0bd7b08d73494285ccedbf1bd54469",
+            "type": "OPEN_URL",
+            "url": "https://basecamp.kony.com/s/",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

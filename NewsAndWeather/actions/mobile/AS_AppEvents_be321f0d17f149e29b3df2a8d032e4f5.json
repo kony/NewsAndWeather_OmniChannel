@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_be321f0d17f149e29b3df2a8d032e4f5": {
+        "id": "AS_AppEvents_be321f0d17f149e29b3df2a8d032e4f5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e353a42e811c4c1c99fb855c82e42f69",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(kony.store.getItem(\"isFirstTime\")!== undefined && kony.store.getItem(\"isFirstTime\")!== null && kony.store.getItem(\"isFirstTime\") == \"false\"){\n    return \"frmNewsAndWeather\";\n}else{\n  return \"frmSplash\";\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

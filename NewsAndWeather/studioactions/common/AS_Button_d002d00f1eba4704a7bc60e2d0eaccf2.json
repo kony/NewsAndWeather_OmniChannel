@@ -1,0 +1,23 @@
+{
+    "AS_Button_d002d00f1eba4704a7bc60e2d0eaccf2": {
+        "id": "AS_Button_d002d00f1eba4704a7bc60e2d0eaccf2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwa4111ee47c4a412db70eb51f1d6127ad",
+            "type": "userwidgets",
+            "KUID": "a4111ee47c4a412db70eb51f1d6127ad"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cac17223812a428b802a83e6ea8941c8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.LongArrowLeft.isVisible === true)\n  this.onClickBack();\nelse\n  this.onClickDrag();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

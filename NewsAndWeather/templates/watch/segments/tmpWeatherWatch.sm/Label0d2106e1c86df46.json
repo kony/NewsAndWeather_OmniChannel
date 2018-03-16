@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": 0,
+    "_lines_": 1,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_opacity_": 100,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s59617bacfd946c1b1edb1bfd7472387",
+    "_text_": "23° C",
+    "_top_": 0,
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "Label0d2106e1c86df46",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "dcbf1c04bce4490a9e78fbb5000d7e6a",
+    "minscale": 100,
+    "name": "kony.ui.Label",
+    "paddinginpixel": true,
+    "parent": "Group0b3e46f17e13c47",
+    "pf": "tmpWeatherWatch",
+    "tooltip": "",
+    "wType": "Label",
+    "widgetalignment": 2
+}

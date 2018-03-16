@@ -1,0 +1,51 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfd175df69f743a69bda059fa8d549f5",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblNewsCatName"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "tablet",
+            "name": "flxNewsCatWraperController"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxNewsCatWraper",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "ccd3068046ae4b8092754a7e336ddfe0",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tempTabNewsCat",
+    "pf": "tempTabNewsCat",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

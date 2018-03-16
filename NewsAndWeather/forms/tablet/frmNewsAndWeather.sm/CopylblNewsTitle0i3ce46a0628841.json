@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5486640bd4543b98d91e8d3286083c3",
+    "_text_": "News Title: so and so goes like this as never before...",
+    "_top_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "CopylblNewsTitle0i3ce46a0628841",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "j0dc633e95b2459fa5e3618a468e667f",
+    "name": "kony.ui.Label",
+    "parent": "CopyflxNewsContainer0he084b798b9340",
+    "pf": "frmNewsAndWeather",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

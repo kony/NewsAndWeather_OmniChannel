@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s1e2f9de1bd84b1085505923f4338d87",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "flexMainNews"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "iPhone6",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "segNewsDetails",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isvisible": true,
+    "kuid": "a2bfb94a23a941c9a9340e347b9c27c4",
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "GalaxyS5",
+    "prevPlatform": "android",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhone6",
+    "titleBarSkin": "s48133ccbe6b4014b00f0e3f3fc1648e",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

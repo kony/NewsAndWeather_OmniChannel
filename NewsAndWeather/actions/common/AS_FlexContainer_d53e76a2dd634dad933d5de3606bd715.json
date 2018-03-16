@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_d53e76a2dd634dad933d5de3606bd715": {
+        "id": "AS_FlexContainer_d53e76a2dd634dad933d5de3606bd715",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwa4111ee47c4a412db70eb51f1d6127ad",
+            "type": "userwidgets",
+            "KUID": "a4111ee47c4a412db70eb51f1d6127ad"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ad85d82bf4a34836afe7cbbba9e53458",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.touchS(eventobject, x, y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

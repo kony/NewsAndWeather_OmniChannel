@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa24272997a744cc8ef0fbd6b75add43",
+    "_src_": "closewhite.png",
+    "_top_": {
+        "type": "string",
+        "value": "21dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "formID": "uwd7d13a7588fa45a58e478aeda7cac7a7",
+        "platform": "ipad",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "id": "btnClose",
+    "ide_onTouchEnd": "AS_Image_hd8397261cea44a49cc757f7d56d1eda",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "d1e7a6eabc494c9aa3dd0697f24c9195",
+    "name": "kony.ui.Image2",
+    "parent": "flexCloseClick",
+    "pf": "userwidgetmodel",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

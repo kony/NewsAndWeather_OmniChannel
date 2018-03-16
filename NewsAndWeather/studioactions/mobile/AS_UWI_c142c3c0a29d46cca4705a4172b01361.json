@@ -1,0 +1,24 @@
+{
+    "AS_UWI_c142c3c0a29d46cca4705a4172b01361": {
+        "id": "AS_UWI_c142c3c0a29d46cca4705a4172b01361",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b7e61c0deb3a4169a987b8d1a8590c54"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__id04d6e55c2341279d4fa8d1c66e115d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.flxCoverOnClick();\nisHelpClicked = true;\nkony.store.removeItem(\"isFirstTime\");\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

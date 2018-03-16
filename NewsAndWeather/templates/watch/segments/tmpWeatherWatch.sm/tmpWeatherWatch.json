@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s787a3b495d44d65a771ba4c5956dc5a",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "Group0b3e46f17e13c47"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "appleWatch42",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "tmpWeatherWatch",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isvisible": true,
+    "kuid": "d253ac68cfb44aa8a067ea9617214227",
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "watchos",
+    "prevDevice": "appleWatch42",
+    "prevPlatform": "watchos",
+    "retainscrollposition": false,
+    "shellCSS": "appleWatch42",
+    "titleBarSkin": "s2ab8882b80342ff8ec247c454800961",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s5e3d9d223404c45b7eb21894405b1b1",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "canvasWidth": 1400,
+    "children": [
+        "KnowledgeFrameworkTablet"
+    ],
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "iPadMini",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "userwidgetmodel",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isvisible": true,
+    "kuid": "d7d13a7588fa45a58e478aeda7cac7a7",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "ipad",
+    "prevDevice": "iPad3",
+    "prevPlatform": "desktopweb",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPadMini",
+    "titleBarSkin": "s2ab8882b80342ff8ec247c454800961",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

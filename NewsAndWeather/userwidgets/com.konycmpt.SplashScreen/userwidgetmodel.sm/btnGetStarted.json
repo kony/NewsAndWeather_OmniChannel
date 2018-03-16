@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1ac1de68d404f55b27e2925d790f0f7",
+    "_text_": "Get Started",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sddf259b34df494497a700050de18d94",
+    "id": "btnGetStarted",
+    "ide_onClick": "AS_Button_f924edd1b0184befa1005251278b1ee4",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dea6669825224b518125683e70d84233",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_f924edd1b0184befa1005251278b1ee4",
+    "parent": "flxToolbar",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

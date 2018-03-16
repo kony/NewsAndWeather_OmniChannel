@@ -1,0 +1,17 @@
+{
+    "AS_Button_d2989434a6fd4db9bd88f89ef0bac9f4": {
+        "id": "AS_Button_d2989434a6fd4db9bd88f89ef0bac9f4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_j40400aef47a460ca12b0e7356599363",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openNewsItemInBrowser();",
+            "callbackType": null
+        }]
+    }
+}

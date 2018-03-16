@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": 0,
+    "_lines_": 1,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_opacity_": 100,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s59617bacfd946c1b1edb1bfd7472387",
+    "_text_": "MAR 13, 2018",
+    "_top_": 0,
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "lblDate",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "h9e7bfb7d3d74818a94e81d071a5c96b",
+    "minscale": 100,
+    "name": "kony.ui.Label",
+    "paddinginpixel": true,
+    "parent": "Group0b3e46f17e13c47",
+    "pf": "tmpWeatherWatch",
+    "tooltip": "",
+    "wType": "Label",
+    "widgetalignment": 2
+}

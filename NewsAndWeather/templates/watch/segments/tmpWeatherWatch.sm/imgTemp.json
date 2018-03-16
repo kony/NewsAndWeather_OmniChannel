@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": 0,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_opacity_": 100,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sda2fe67ca674bb394008a40693494fc",
+    "_src_": "weather_large_partly_cloudy.png",
+    "_top_": 0,
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "watch",
+        "platform": "watchos",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "imgTemp",
+    "imagescalemode": "aspectFill",
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "b8ef8ed6b5594002bfa8e735279a3aa0",
+    "name": "kony.ui.Image2",
+    "paddinginpixel": true,
+    "parent": "Group0b3e46f17e13c47",
+    "pf": "tmpWeatherWatch",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 2
+}

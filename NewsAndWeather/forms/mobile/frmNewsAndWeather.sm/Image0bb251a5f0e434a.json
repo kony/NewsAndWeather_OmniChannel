@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "14%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "49.97%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa24272997a744cc8ef0fbd6b75add43",
+    "_src_": "arrow1.png",
+    "_top_": {
+        "type": "string",
+        "value": "72%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "22%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmNewsAndWeather",
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "Image0bb251a5f0e434a",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "b9db21e721354e6486d588de9f0efef3",
+    "name": "kony.ui.Image2",
+    "parent": "flexKn",
+    "pf": "frmNewsAndWeather",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Segment_dfc3d2d2383244feb9f2d959e98242bd": {
+        "id": "AS_Segment_dfc3d2d2383244feb9f2d959e98242bd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu21dfa1888cb4694990cadbd61c5654f",
+            "type": "userwidgets",
+            "KUID": "u21dfa1888cb4694990cadbd61c5654f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e2ca602bd1c944a5a51d8aef03449a20",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": null,
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__ef9f3572ae484f13a6fa4f817c4c1be6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"onpush\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

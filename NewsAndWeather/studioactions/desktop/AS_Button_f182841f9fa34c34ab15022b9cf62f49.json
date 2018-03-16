@@ -1,0 +1,17 @@
+{
+    "AS_Button_f182841f9fa34c34ab15022b9cf62f49": {
+        "id": "AS_Button_f182841f9fa34c34ab15022b9cf62f49",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "OPEN_URL_ide_onClick_a0fb8e48664e40ecb179e1ba16821829",
+            "type": "OPEN_URL",
+            "url": "https://community.kony.com/documentation",
+            "callbackType": null
+        }]
+    }
+}

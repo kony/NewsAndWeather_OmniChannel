@@ -1,0 +1,65 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8cb0a3020fc4b06a84b28d67b6688e0",
+    "_width_": {
+        "type": "string",
+        "value": "140px"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "lblDay6",
+        "lblTemp6",
+        "imgTemp6"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "Form1Controller"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxWeathDay6",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c99acd0246df42e299dc0a52860818bc",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxWeatherNewsWrapper",
+    "pf": "frmNewsAndWeather",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

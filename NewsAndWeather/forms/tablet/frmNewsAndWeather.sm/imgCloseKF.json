@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "sa24272997a744cc8ef0fbd6b75add43",
+    "_src_": "closewhite.png",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "formID": "frmNewsAndWeather",
+        "platform": "ipad",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgCloseKF",
+    "ide_onTouchEnd": "AS_Image_a6e35d038bda4dc2a83a64df998893b4",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "ddc531ec1be24c09bc9add29f1923fce",
+    "name": "kony.ui.Image2",
+    "parent": "flxKnowledgeFramework",
+    "pf": "frmNewsAndWeather",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 4
+}

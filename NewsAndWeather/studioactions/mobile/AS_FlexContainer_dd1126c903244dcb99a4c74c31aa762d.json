@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_dd1126c903244dcb99a4c74c31aa762d": {
+        "id": "AS_FlexContainer_dd1126c903244dcb99a4c74c31aa762d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e00c7921563340bcb14e4879d03a2b4c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setFooterMenu(eventobject.id);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

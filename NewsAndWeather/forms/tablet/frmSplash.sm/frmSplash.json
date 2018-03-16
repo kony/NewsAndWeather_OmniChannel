@@ -1,0 +1,107 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s5e3d9d223404c45b7eb21894405b1b1",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "SplashScreen"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "tablet",
+            "name": "frmSplashController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPad3",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "frmSplash",
+    "ide_preShow": "AS_Form_ja36b7d0c2c943ad8659adc73e749f3c",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarConfig": {
+                "buttonClosureLeftSideView": "",
+                "buttonClosureRightSideView": "",
+                "buttonText": "Edit",
+                "leftButtonText": "Back",
+                "leftTitle": "Back",
+                "prevFormTitle": false,
+                "renderTitleText": true,
+                "rightTitle": "Edit",
+                "titleBarLeftSideView": "button",
+                "titleBarRightSideView": "button",
+                "titleClosureLeftSideView": "",
+                "titleClosureRightSideView": "",
+                "visible": false
+            }
+        },
+        "titleBar": false
+    },
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "isvisible": true,
+    "kuid": "d37ea938387d4708b1e291366015be3a",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "ipad",
+    "prevDevice": "iPad3",
+    "prevPlatform": "ipad",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPad3",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaandroidtablet": {
+        "needAppMenu": false
+    },
+    "spaipad": {
+        "needAppMenu": false
+    },
+    "spawindowstablet": {
+        "needAppMenu": false
+    },
+    "titleBarSkin": "s2ab8882b80342ff8ec247c454800961",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form",
+    "windows8": {
+        "needAppMenu": false
+    }
+}

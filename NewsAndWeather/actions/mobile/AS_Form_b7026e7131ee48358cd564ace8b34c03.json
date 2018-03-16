@@ -1,0 +1,24 @@
+{
+    "AS_Form_b7026e7131ee48358cd564ace8b34c03": {
+        "id": "AS_Form_b7026e7131ee48358cd564ace8b34c03",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSplash",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f93855e1d3b047d085031fae86b2f695"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i6494d1a2d38491bad94aca88be74762",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setGetStartedData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

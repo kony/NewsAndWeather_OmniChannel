@@ -1,0 +1,24 @@
+{
+    "AS_Button_d243a7b1aac9466ab4b62ae3249a7255": {
+        "id": "AS_Button_d243a7b1aac9466ab4b62ae3249a7255",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__de21a2a63a6a4250a0c6c3cd4b62f322",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.closeWhenDone();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

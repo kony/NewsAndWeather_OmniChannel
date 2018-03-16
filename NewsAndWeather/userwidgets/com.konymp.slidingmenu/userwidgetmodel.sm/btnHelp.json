@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s154e87eaf304e4d8743e492cf5faa15",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "52%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sbb0a8c62272426ab2a68eeaebe07796",
+    "id": "btnHelp",
+    "info": null,
+    "isvisible": true,
+    "kuid": "had295e6815b495e81887fcd29b7c57e",
+    "name": "kony.ui.Button",
+    "parent": "flxBotom",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

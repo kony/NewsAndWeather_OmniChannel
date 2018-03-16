@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizGroup",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_opacity_": 100,
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s63a7c75305e46eebc657828aeb2bd30",
+    "_spacing_": 7,
+    "_width_": "100%",
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "lblDate",
+        "imgTemp",
+        "Label0d2106e1c86df46"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "Group0b3e46f17e13c47",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "iee474ea6cbb46208de22ab55882fab0",
+    "layouttype": 4,
+    "name": "kony.ui.Group",
+    "parent": "tmpWeatherWatch",
+    "pf": "tmpWeatherWatch",
+    "snapgridsize": 10,
+    "snaptogrid": false,
+    "wType": "Group",
+    "widgetalignment": 1
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Button_d40c208d0385480697a9f28d4c106adb": {
+        "id": "AS_Button_d40c208d0385480697a9f28d4c106adb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g66b540469264921941dad9c4f85745e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "OPEN_URL_ide_onClick_j01bd0376935479eb2aef78912920944",
+            "type": "OPEN_URL",
+            "url": "https://community.kony.com/documentation",
+            "callbackType": null
+        }]
+    }
+}

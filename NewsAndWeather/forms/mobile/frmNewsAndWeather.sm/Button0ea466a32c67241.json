@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "3.97%"
+    },
+    "_skin_": "s40ac2d86f024a28bc42e7f0138d0f3c",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "3.25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "6.50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "scb18cc0002241129bbc243457ecf966"
+    },
+    "displaytext": true,
+    "id": "Button0ea466a32c67241",
+    "ide_onClick": "AS_Button_g563592300b3498a91cbca80bf85ca21",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b8fc148567a9436f93e9e7fc5252d8a6",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_g563592300b3498a91cbca80bf85ca21",
+    "parent": "flexKn",
+    "pf": "frmNewsAndWeather",
+    "wType": "Button",
+    "zindex": 1
+}

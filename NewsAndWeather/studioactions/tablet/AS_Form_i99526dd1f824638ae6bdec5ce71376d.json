@@ -1,0 +1,24 @@
+{
+    "AS_Form_i99526dd1f824638ae6bdec5ce71376d": {
+        "id": "AS_Form_i99526dd1f824638ae6bdec5ce71376d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i3b2147705b44608897746c4e20c2543"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__faa2ef6df5ea4dc1b04d739ab3b2c8b0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.orientationChangedCallback(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.18%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_skin_": "s81dcd0db2a34e1bac0f2a0629ae755d",
+    "_text_": "Science",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "contentAlignment": 5,
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "48.18%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "45.80%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "cateName8",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "contentAlignment": 5,
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "e7ae77bc0efe43de96d80c4da1eaa860",
+    "masterType": 1,
+    "name": "kony.ui.Label",
+    "parent": "category8",
+    "pf": "frmNewsAndWeather",
+    "spa": {
+        "contentAlignment": 5
+    },
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

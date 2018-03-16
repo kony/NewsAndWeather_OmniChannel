@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s5e3d9d223404c45b7eb21894405b1b1",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "canvasWidth": 1400,
+    "children": [
+        "CopyflxFeatureRowTemp0e026b4a919e14e"
+    ],
+    "containerId": true,
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "iPad3",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "id": "tempFeatureList",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "isvisible": true,
+    "kuid": "af0d1ffc255b49cbbcf4152f09980ef9",
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "platform": "ipad",
+    "prevDevice": "iPad3",
+    "prevPlatform": "ipad",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPad3",
+    "titleBarSkin": "s2ab8882b80342ff8ec247c454800961",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

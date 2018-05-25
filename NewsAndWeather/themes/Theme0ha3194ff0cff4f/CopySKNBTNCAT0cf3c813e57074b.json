@@ -25,6 +25,7 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
+    "font_name": "karbon-bold-webfont",
     "font_size": 140,
     "isForked": false
   },

@@ -1,7 +1,7 @@
 //startup.js file
 var globalhttpheaders = {};
 var appConfig = {
-    appId: "NewsAndWeather",
+    appId: "NewsAndWeatherSk",
     appName: "NewsAndWeather",
     appVersion: "1.0.0",
     platformVersion: null,
@@ -9,80 +9,80 @@ var appConfig = {
     serverPort: "80",
     secureServerPort: "443",
     isDebug: true,
-    middlewareContext: "NewsAndWeather",
-    isturlbase: "http://kh2183.kitspl.com:8117/services",
+    middlewareContext: "NewsAndWeatherSk",
+    isturlbase: "https://mfreddy.konycloud.com/services",
     isMFApp: true,
-    appKey: "3609eab0d55954c5655faff4f025e505",
-    appSecret: "5f3e4260c3734274bffc7dd79c0b5558",
-    serviceUrl: "http://kh2183.kitspl.com:8117/authService/100000002/appconfig",
+    appKey: "80e71eb248286ed79221eeeed7bc17bc",
+    appSecret: "de64004f5188e1cbae8df2eb4d2633db",
+    serviceUrl: "https://100006023.auth.konycloud.com/appconfig",
     svcDoc: {
-        "selflink": "http://kh2183.kitspl.com:8117/authService/100000002/appconfig",
+        "selflink": "https://100006023.auth.konycloud.com/appconfig",
         "identity_meta": {},
         "integsvc": {
-            "ZWeatherForeCast": "http://kh2183.kitspl.com:8117/services/ZWeatherForeCast",
-            "ZNewsForCategory": "http://kh2183.kitspl.com:8117/services/ZNewsForCategory",
-            "News": "http://kh2183.kitspl.com:8117/services/News",
-            "ZLocalNewsNWeather": "http://kh2183.kitspl.com:8117/services/ZLocalNewsNWeather",
-            "ZCityWeather": "http://kh2183.kitspl.com:8117/services/ZCityWeather",
-            "ZLocalNews": "http://kh2183.kitspl.com:8117/services/ZLocalNews"
+            "ZWeatherForeCast": "https://mfreddy.konycloud.com/services/ZWeatherForeCast",
+            "ZNewsForCategory": "https://mfreddy.konycloud.com/services/ZNewsForCategory",
+            "News": "https://mfreddy.konycloud.com/services/News",
+            "ZLocalNewsNWeather": "https://mfreddy.konycloud.com/services/ZLocalNewsNWeather",
+            "ZCityWeather": "https://mfreddy.konycloud.com/services/ZCityWeather",
+            "ZLocalNews": "https://mfreddy.konycloud.com/services/ZLocalNews"
         },
-        "appId": "9348776d-3a79-4031-ba04-4f6e1718a9ab",
+        "service_doc_etag": "0000016204EC3DF0",
+        "appId": "f8837a48-862d-4752-95a6-35da5035ea4d",
         "identity_features": {
             "reporting_params_header_allowed": true
         },
-        "name": "NewsNWeatherDemo",
+        "name": "NewsNWeatherDemoSample",
         "reportingsvc": {
-            "session": "http://kh2183.kitspl.com:8117/services/IST",
-            "custom": "http://kh2183.kitspl.com:8117/services/CMS"
+            "session": "https://mfreddy.konycloud.com/services/IST",
+            "custom": "https://mfreddy.konycloud.com/services/CMS"
         },
-        "baseId": "f16ff2ad-723e-4289-965f-a013f236ecb3",
+        "baseId": "a5e8ac4b-8e0f-4a75-8568-884d4a74ee1f",
         "login": [{
             "alias": "userstore",
             "type": "basic",
             "prov": "userstore",
-            "url": "http://kh2183.kitspl.com:8117/authService/100000002"
+            "url": "https://100006023.auth.konycloud.com"
         }],
         "services_meta": {
             "ZWeatherForeCast": {
                 "type": "integsvc",
                 "version": "1.0",
-                "url": "http://kh2183.kitspl.com:8117/services/ZWeatherForeCast"
+                "url": "https://mfreddy.konycloud.com/services/ZWeatherForeCast"
             },
             "ZNewsForCategory": {
                 "type": "integsvc",
                 "version": "1.0",
-                "url": "http://kh2183.kitspl.com:8117/services/ZNewsForCategory"
+                "url": "https://mfreddy.konycloud.com/services/ZNewsForCategory"
             },
             "News": {
                 "type": "integsvc",
                 "version": "1.0",
-                "url": "http://kh2183.kitspl.com:8117/services/News"
+                "url": "https://mfreddy.konycloud.com/services/News"
             },
             "ZLocalNewsNWeather": {
                 "type": "integsvc",
                 "version": "1.0",
-                "url": "http://kh2183.kitspl.com:8117/services/ZLocalNewsNWeather"
+                "url": "https://mfreddy.konycloud.com/services/ZLocalNewsNWeather"
             },
             "ZCityWeather": {
                 "type": "integsvc",
                 "version": "1.0",
-                "url": "http://kh2183.kitspl.com:8117/services/ZCityWeather"
+                "url": "https://mfreddy.konycloud.com/services/ZCityWeather"
             },
             "ZLocalNews": {
                 "type": "integsvc",
                 "version": "1.0",
-                "url": "http://kh2183.kitspl.com:8117/services/ZLocalNews"
+                "url": "https://mfreddy.konycloud.com/services/ZLocalNews"
             }
         },
         "Webapp": {
-            "url": "http://kh2183.kitspl.com:8117/NewsAndWeather"
+            "url": "https://mfreddy.konycloud.com/NewsAndWeather"
         }
     },
-    svcDocRefresh: false,
-    svcDocRefreshTimeSecs: -1,
+    runtimeAppVersion: "1.0",
     eventTypes: ["FormEntry", "Error", "Crash"],
-    url: "http://kh2183.kitspl.com:8117/admin/NewsAndWeather/MWServlet",
-    secureurl: "http://kh2183.kitspl.com:8117/admin/NewsAndWeather/MWServlet"
+    url: "https://100006023.auth.konycloud.com/appconfig",
+    secureurl: "https://100006023.auth.konycloud.com/appconfig"
 };
 sessionID = "";
 
@@ -151,7 +151,7 @@ function onFailure(errorcode, errormsg, info) {
 };
 kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
 //If default locale is specified. This is set even before any other app life cycle event is called.
-kony.i18n.setDefaultLocaleAsync("en_US", onSuccess, onFailure, null);
+kony.i18n.setDefaultLocaleAsync("null", onSuccess, onFailure, null);
 // If you wish to debug Application Initialization events, now is the time to
 // place breakpoints.
 debugger;

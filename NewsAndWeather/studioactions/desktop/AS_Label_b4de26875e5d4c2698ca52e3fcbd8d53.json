@@ -1,0 +1,30 @@
+{
+    "AS_Label_b4de26875e5d4c2698ca52e3fcbd8d53": {
+        "id": "AS_Label_b4de26875e5d4c2698ca52e3fcbd8d53",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmNewsAndWeather444c3380",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ps444c33813d7611e8831de1bd0e6fda5c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g515455ed29440229e58f7d063f28895",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.openURL('https://community.kony.com/documentation');",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

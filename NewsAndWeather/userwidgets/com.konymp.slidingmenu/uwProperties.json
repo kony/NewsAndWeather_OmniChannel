@@ -479,13 +479,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxImage",
@@ -518,13 +523,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxImage",
@@ -590,13 +600,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "lblHeaderText1",
@@ -629,13 +644,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "lblHeaderText1",
@@ -668,13 +688,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxImage",
@@ -707,13 +732,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxImage",
@@ -789,13 +819,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "lblHeaderText1",
@@ -828,13 +863,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "lblHeaderText1",
@@ -867,13 +907,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxHeader",
@@ -906,13 +951,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxMenuControl",
@@ -945,13 +995,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxMenuControl",
@@ -1035,13 +1090,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "btnClick",
@@ -1098,13 +1158,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "btnClick",
@@ -1221,13 +1286,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "btnClick",
@@ -1288,13 +1358,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "btnClick",

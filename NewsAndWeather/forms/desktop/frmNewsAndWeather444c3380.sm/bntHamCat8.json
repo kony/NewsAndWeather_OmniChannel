@@ -1,0 +1,160 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": ""
+    },
+    "_skin_": "ps4589e3a13d7611e8831de1bd0e6fda5c",
+    "_text_": "HEALTH",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "144px"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
+    "centery": {
+        "type": "number",
+        "value": ""
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "focusskin": "ps4589e3a13d7611e8831de1bd0e6fda5c",
+    "id": "bntHamCat8",
+    "ide_onClick": "AS_Button_i19176c4a447496bb64103831f749a5f",
+    "info": null,
+    "isvisible": true,
+    "kuid": "efe9811bad5642adb912785e8c1b2633",
+    "name": "kony.ui.Button",
+    "parent": "flxHamCats",
+    "pf": "frmNewsAndWeather444c3380",
+    "responsiveData": {
+        "b1": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "centerY": {
+                "type": "string",
+                "value": ""
+            },
+            "contentAlignment": 6,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "left": {
+                "type": "string",
+                "value": "10%"
+            },
+            "right": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "text": "SCIENCE",
+            "top": {
+                "type": "string",
+                "value": "2dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "80%"
+            }
+        },
+        "b2": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "centerY": {
+                "type": "string",
+                "value": ""
+            },
+            "contentAlignment": 6,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "left": {
+                "type": "string",
+                "value": "10%"
+            },
+            "right": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "text": "SCIENCE",
+            "top": {
+                "type": "string",
+                "value": "2dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "80%"
+            }
+        },
+        "b3": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "centerY": {
+                "type": "string",
+                "value": ""
+            },
+            "contentAlignment": 6,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "left": {
+                "type": "string",
+                "value": "10%"
+            },
+            "right": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "text": "SCIENCE",
+            "top": {
+                "type": "string",
+                "value": "2dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "80%"
+            }
+        }
+    },
+    "wType": "Button",
+    "zindex": 0
+}

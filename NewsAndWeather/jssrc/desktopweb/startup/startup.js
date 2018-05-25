@@ -1,6 +1,6 @@
 //startup.js file
 var appConfig = {
-    appId: "NewsAndWeather",
+    appId: "NewsAndWeatherSk",
     appName: "NewsAndWeather",
     appVersion: "1.0.0",
     platformVersion: null,
@@ -18,11 +18,12 @@ var appConfig = {
         "integsvc": {
             "ZWeatherForeCast": "https://mfreddy.konycloud.com/services/ZWeatherForeCast",
             "ZNewsForCategory": "https://mfreddy.konycloud.com/services/ZNewsForCategory",
-            "ZLocalNewsNWeather": "https://mfreddy.konycloud.com/services/ZLocalNewsNWeather",
             "News": "https://mfreddy.konycloud.com/services/News",
+            "ZLocalNewsNWeather": "https://mfreddy.konycloud.com/services/ZLocalNewsNWeather",
             "ZCityWeather": "https://mfreddy.konycloud.com/services/ZCityWeather",
             "ZLocalNews": "https://mfreddy.konycloud.com/services/ZLocalNews"
         },
+        "service_doc_etag": "0000016204EC3DF0",
         "appId": "f8837a48-862d-4752-95a6-35da5035ea4d",
         "identity_features": {
             "reporting_params_header_allowed": true
@@ -50,15 +51,15 @@ var appConfig = {
                 "version": "1.0",
                 "url": "https://mfreddy.konycloud.com/services/ZNewsForCategory"
             },
-            "ZLocalNewsNWeather": {
-                "type": "integsvc",
-                "version": "1.0",
-                "url": "https://mfreddy.konycloud.com/services/ZLocalNewsNWeather"
-            },
             "News": {
                 "type": "integsvc",
                 "version": "1.0",
                 "url": "https://mfreddy.konycloud.com/services/News"
+            },
+            "ZLocalNewsNWeather": {
+                "type": "integsvc",
+                "version": "1.0",
+                "url": "https://mfreddy.konycloud.com/services/ZLocalNewsNWeather"
             },
             "ZCityWeather": {
                 "type": "integsvc",
@@ -75,12 +76,11 @@ var appConfig = {
             "url": "https://mfreddy.konycloud.com/NewsAndWeather"
         }
     },
-    svcDocRefresh: false,
-    svcDocRefreshTimeSecs: -1,
+    runtimeAppVersion: "1.0",
     eventTypes: ["FormEntry", "Error", "Crash"],
-    url: "https://mfreddy.konycloud.com/NewsAndWeather/MWServlet",
-    secureurl: "https://mfreddy.konycloud.com/NewsAndWeather/MWServlet",
-    middlewareContext: "NewsAndWeather"
+    url: "https://100006023.auth.konycloud.com/appconfig",
+    secureurl: "https://100006023.auth.konycloud.com/appconfig",
+    middlewareContext: "NewsAndWeatherSk"
 };
 sessionID = "";
 
@@ -94,6 +94,7 @@ function setAppBehaviors() {
         applyMarginPaddingInBCGMode: false,
         adherePercentageStrictly: true,
         isMVC: true,
+        responsive: true,
         retainSpaceOnHide: true,
         APILevel: 8000
     })
@@ -102,7 +103,7 @@ function setAppBehaviors() {
 function themeCallBack() {
     initializeGlobalVariables();
     requirejs.config({
-        baseUrl: "desktopweb/appjs"
+        baseUrl: kony.appinit.getStaticContentPath() + "desktopweb/appjs"
     });
     var requireModulesList = getSPARequireModulesList();
     require(requireModulesList, function() {
@@ -112,7 +113,7 @@ function themeCallBack() {
             init: applicationController.appInit,
             postappinit: applicationController.AS_AppEvents_bd6a68c68fc846a38eeae091a302680a,
             showstartupform: function() {
-                var startForm = new kony.mvc.Navigation("frmNewsAndWeather");
+                var startForm = new kony.mvc.Navigation("frmNewsAndWeather444c3380");
                 startForm.navigate();
             }
         });
@@ -150,7 +151,7 @@ function onFailure(errorcode, errormsg, info) {
 function initializeApp() {
     kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
     //If default locale is specified. This is set even before any other app life cycle event is called.
-    kony.i18n.setDefaultLocaleAsync("en_US", onSuccess, onFailure, null);
+    kony.i18n.setDefaultLocaleAsync("null", onSuccess, onFailure, null);
 };
 									function getSPARequireModulesList(){ return ['kvmodules']; }
 								

@@ -6,6 +6,8 @@
   "border_type": 0,
   "border_width": 1,
   "desktopweb": {
+    "background_color": "00a0dd33",
+    "bg_type": "one",
     "bottom_left_border_color": "f2f1f1e5",
     "bottom_left_border_radius": 10,
     "bottom_left_border_style": "rc",
@@ -61,5 +63,10 @@
   "spawinphone8": {
     "isForked": true
   },
-  "wType": "FlexContainer"
+  "wType": "FlexContainer",
+  "windows8": {
+    "background_color": "00a0dd33",
+    "bg_type": "one",
+    "isForked": true
+  }
 }

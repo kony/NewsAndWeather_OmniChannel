@@ -1,0 +1,88 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "ps4589e3a13d7611e8831de1bd0e6fda5c",
+    "_text_": "U.S.",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "43px"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
+    "centery": {
+        "type": "number",
+        "value": ""
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "focusskin": "ps4589e3a13d7611e8831de1bd0e6fda5c",
+    "id": "btnCat3",
+    "ide_onClick": "AS_Button_c4ea74c4856d4e6d85e7cdb392cfe523",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ps458a58d03d7611e8831de1bd0e6fda5c",
+    "name": "kony.ui.Button",
+    "parent": "CategoriesBar",
+    "pf": "frmNewsAndWeather444c3380",
+    "responsiveData": {
+        "b1": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "centerY": {
+                "type": "string",
+                "value": "50%"
+            },
+            "contentAlignment": 5,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "left": {
+                "type": "string",
+                "value": "2dp"
+            },
+            "top": {
+                "type": "string",
+                "value": ""
+            },
+            "width": {
+                "type": "string",
+                "value": "40px"
+            }
+        },
+        "b2": {}
+    },
+    "wType": "Button",
+    "zindex": 0
+}

@@ -7,7 +7,6 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmNewsAndWeather",
             "type": "forms",
             "platform": "",
             "KUID": "g66b540469264921941dad9c4f85745e"

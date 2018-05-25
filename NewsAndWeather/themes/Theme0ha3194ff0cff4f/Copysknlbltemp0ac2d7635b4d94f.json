@@ -1,5 +1,8 @@
 {
-  "background_color": "00000000",
+  "android": {
+    "font_name": "Roboto-Regular"
+  },
+  "background_color": "00a0dd02",
   "bg_type": "one",
   "border_color": "424242ff",
   "border_style": "plain",
@@ -11,7 +14,7 @@
     "isForked": true
   },
   "fontSizeInPx": false,
-  "font_color": "424242ff",
+  "font_color": "ffffffff",
   "font_name": "Helvetica",
   "font_size": 150,
   "font_style": "normal",

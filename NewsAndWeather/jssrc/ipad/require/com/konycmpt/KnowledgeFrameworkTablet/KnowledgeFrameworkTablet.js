@@ -245,12 +245,12 @@ define(function() {
         }, {}, {});
         flexAcc1.setDefaultUnit(kony.flex.DP);
         var lblTitleAcc1 = new kony.ui.Label({
+            "centerY": "50%",
             "id": "lblTitleAcc1",
             "isVisible": true,
             "left": "0.00%",
             "skin": "sknlblAccNormal",
             "text": "What's it ?",
-            "top": "6px",
             "width": "80%",
             "zIndex": 1
         }, {
@@ -352,7 +352,7 @@ define(function() {
             "isVisible": true,
             "onClick": controller.AS_Button_a644c13a55464052b630dbb560db1766,
             "skin": "CopyslButtonGlossBlue0adf7d460ef824c",
-            "width": "20%",
+            "width": "13%",
             "zIndex": 1
         }, {
             "contentAlignment": constants.CONTENT_ALIGN_CENTER,
@@ -397,6 +397,7 @@ define(function() {
         }, {}, {});
         flexAcc2.setDefaultUnit(kony.flex.DP);
         var lblTitleAcc2 = new kony.ui.Label({
+            "centerY": "50%",
             "id": "lblTitleAcc2",
             "isVisible": true,
             "left": "0%",
@@ -518,14 +519,14 @@ define(function() {
             "centerX": "50%",
             "centerY": "50%",
             "focusSkin": "slButtonGlossRed",
-            "height": "36.36%",
+            "height": "20%",
             "id": "btnPlay2",
             "isVisible": true,
             "left": "120dp",
             "onClick": controller.AS_Button_bdf2e3dcfd524e0081242e2255aeb7ac,
             "skin": "CopyslButtonGlossBlue0adf7d460ef824c",
             "top": "69dp",
-            "width": "20%",
+            "width": "13%",
             "zIndex": 1
         }, {
             "contentAlignment": constants.CONTENT_ALIGN_CENTER,
@@ -570,6 +571,7 @@ define(function() {
         }, {}, {});
         flexAcc3.setDefaultUnit(kony.flex.DP);
         var lblTitleAcc3 = new kony.ui.Label({
+            "centerY": "50%",
             "id": "lblTitleAcc3",
             "isVisible": true,
             "left": "0%",

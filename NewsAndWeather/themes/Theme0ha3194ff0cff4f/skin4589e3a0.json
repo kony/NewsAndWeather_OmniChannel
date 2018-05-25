@@ -1,0 +1,42 @@
+{
+	"background_color": "00000000",
+	"bg_type": "one",
+	"border_color": "00000000",
+	"border_style": "plain",
+	"border_type": 0,
+	"border_width": 0,
+	"font_color": "343E48ff",
+	"font_name": "Helvetica",
+	"font_size": 138,
+	"font_style": "normal",
+	"font_weight": "normal",
+	"isDefaultSkin": false,
+	"desktopweb": {
+		"backgroundSize": true,
+		"bg_type": "image",
+		"bottom_left_border_color": "00000000",
+		"bottom_left_border_style": "plain",
+		"bottom_left_border_width": 0,
+		"bottom_right_border_color": "00000000",
+		"bottom_right_border_style": "plain",
+		"bottom_right_border_width": 0,
+		"isForked": true,
+		"top_left_border_color": "00000000",
+		"top_left_border_style": "plain",
+		"top_left_border_width": 0,
+		"top_right_border_color": "00000000",
+		"top_right_border_style": "plain",
+		"top_right_border_width": 0,
+		"font_size": 138,
+		"font_name": "Helvetica"
+	},
+	"isForked": true,
+	"wType": "Button",
+	"kiosk": {
+		"font_size": 138,
+		"font_name": "Helvetica",
+		"isForked": false
+	},
+	"kuid": "ps4589e3a13d7611e8831de1bd0e6fda5c",
+	"fontSizeInPx": true
+}

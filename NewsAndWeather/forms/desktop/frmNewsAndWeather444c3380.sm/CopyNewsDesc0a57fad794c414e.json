@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "95px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4.58%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "ps445052313d7611e8831de1bd0e6fda5c",
+    "_text_": "Apple’s long-awaited update to the 2013 Mac Pro won’t be released until sometime next year, the company confirmed in an interview with TechCrunch…",
+    "_top_": {
+        "type": "string",
+        "value": "63.4%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "278px"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": "null",
+            "lineSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "ps445052313d7611e8831de1bd0e6fda5c",
+    "id": "CopyNewsDesc0a57fad794c414e",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        },
+        "textStyle": {
+            "baseline": 0,
+            "letterSpacing": "null",
+            "lineSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        },
+        "textStyle": {
+            "baseline": 0,
+            "letterSpacing": "null",
+            "lineSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "b0d398a77b504c439d969b86d04960f5",
+    "name": "kony.ui.Label",
+    "parent": "CopyNewsCard0g245f933189243",
+    "pf": "frmNewsAndWeather444c3380",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 2
+}

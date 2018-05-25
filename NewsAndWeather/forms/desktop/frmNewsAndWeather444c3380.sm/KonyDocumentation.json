@@ -1,0 +1,119 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "19px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "ps4585ec013d7611e8831de1bd0e6fda5c",
+    "_text_": "Kony Documentation",
+    "_top_": {
+        "type": "string",
+        "value": "17.02%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": "null",
+            "lineSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "ps4585ec013d7611e8831de1bd0e6fda5c",
+    "id": "KonyDocumentation",
+    "ide_onTouchStart": "AS_Label_b4de26875e5d4c2698ca52e3fcbd8d53",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        },
+        "textStyle": {
+            "baseline": 0,
+            "letterSpacing": "null",
+            "lineSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        },
+        "textStyle": {
+            "baseline": 0,
+            "letterSpacing": "null",
+            "lineSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "ps458e29603d7611e8831de1bd0e6fda5c",
+    "name": "kony.ui.Label",
+    "parent": "flxHamMenu",
+    "pf": "frmNewsAndWeather444c3380",
+    "responsiveData": {
+        "b1": {
+            "contentAlignment": 6,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "top": {
+                "type": "string",
+                "value": "2dp"
+            }
+        },
+        "b2": {
+            "contentAlignment": 6,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "top": {
+                "type": "string",
+                "value": "2dp"
+            }
+        },
+        "b3": {
+            "contentAlignment": 6,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "top": {
+                "type": "string",
+                "value": "2dp"
+            }
+        }
+    },
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 2
+}

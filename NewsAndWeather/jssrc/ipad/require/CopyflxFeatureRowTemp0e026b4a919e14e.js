@@ -16,9 +16,10 @@ define("CopyflxFeatureRowTemp0e026b4a919e14e", function() {
             "height": "80%",
             "id": "lblNameOfAPI",
             "isVisible": true,
-            "skin": "CopysknLabelHeading",
+            "left": "8%",
+            "right": "4%",
+            "skin": "CopysknLabelHeading0fe3d92227ed642",
             "text": "Label",
-            "width": kony.flex.USE_PREFFERED_SIZE,
             "zIndex": 1
         }, {
             "contentAlignment": constants.CONTENT_ALIGN_CENTER,

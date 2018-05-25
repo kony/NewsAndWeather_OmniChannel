@@ -784,7 +784,7 @@ define("frmNewsAndWeather", function() {
                 "height": "100%",
                 "id": "lblBodyTitle",
                 "isVisible": true,
-                "skin": "SKNTOPSTORYTITLE",
+                "skin": "SKNLBLSELECTEDNEWS",
                 "text": "TOP STORIES",
                 "width": "100%",
                 "zIndex": 1
@@ -798,7 +798,7 @@ define("frmNewsAndWeather", function() {
             });
             var imgHamMenu = new kony.ui.Image2({
                 "centerY": "50%",
-                "height": "100px",
+                "height": "70px",
                 "id": "imgHamMenu",
                 "isVisible": false,
                 "left": "1%",
@@ -806,7 +806,7 @@ define("frmNewsAndWeather", function() {
                 "skin": "slImage",
                 "src": "menuicon.png",
                 "top": "18dp",
-                "width": "100px",
+                "width": "50px",
                 "zIndex": 1
             }, {
                 "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
@@ -875,7 +875,7 @@ define("frmNewsAndWeather", function() {
                 "left": "0%",
                 "skin": "FLXWETDAY1",
                 "top": "0%",
-                "width": "14%",
+                "width": "20%",
                 "zIndex": 1
             }, {}, {});
             flxDay1.setDefaultUnit(kony.flex.DP);
@@ -939,7 +939,7 @@ define("frmNewsAndWeather", function() {
                 "left": "2dp",
                 "skin": "FLXWETDAY2",
                 "top": "0%",
-                "width": "14%",
+                "width": "13%",
                 "zIndex": 1
             }, {}, {});
             flxDay2.setDefaultUnit(kony.flex.DP);
@@ -1003,7 +1003,7 @@ define("frmNewsAndWeather", function() {
                 "left": "2dp",
                 "skin": "FLXWETDAY3",
                 "top": "0%",
-                "width": "14%",
+                "width": "13%",
                 "zIndex": 1
             }, {}, {});
             flxDay3.setDefaultUnit(kony.flex.DP);
@@ -1067,7 +1067,7 @@ define("frmNewsAndWeather", function() {
                 "left": "2dp",
                 "skin": "FLXWETDAY4",
                 "top": "0%",
-                "width": "14%",
+                "width": "13%",
                 "zIndex": 1
             }, {}, {});
             flxDay4.setDefaultUnit(kony.flex.DP);
@@ -1131,7 +1131,7 @@ define("frmNewsAndWeather", function() {
                 "left": "2dp",
                 "skin": "FLXWETDAY5",
                 "top": "0%",
-                "width": "14%",
+                "width": "13%",
                 "zIndex": 1
             }, {}, {});
             flxDay5.setDefaultUnit(kony.flex.DP);
@@ -1195,7 +1195,7 @@ define("frmNewsAndWeather", function() {
                 "left": "2dp",
                 "skin": "FLXWETDAY6",
                 "top": "0%",
-                "width": "14%",
+                "width": "13%",
                 "zIndex": 1
             }, {}, {});
             flxDay6.setDefaultUnit(kony.flex.DP);
@@ -1259,7 +1259,7 @@ define("frmNewsAndWeather", function() {
                 "left": "2dp",
                 "skin": "FLXWETDAY7",
                 "top": "0%",
-                "width": "14%",
+                "width": "13%",
                 "zIndex": 1
             }, {}, {});
             flxDay7.setDefaultUnit(kony.flex.DP);
@@ -1382,11 +1382,11 @@ define("frmNewsAndWeather", function() {
                 "height": "25%",
                 "id": "lblNewsTitle",
                 "isVisible": true,
-                "left": "4%",
+                "left": "6%",
                 "skin": "SKNTABNEWSTITLE",
                 "text": "News Title: so and so goes like this as never before...",
                 "top": "32%",
-                "width": "92%",
+                "width": "86%",
                 "zIndex": 1
             }, {
                 "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -1400,11 +1400,11 @@ define("frmNewsAndWeather", function() {
                 "height": "38%",
                 "id": "lblNewsDetail",
                 "isVisible": true,
-                "left": "4%",
+                "left": "6%",
                 "skin": "SKNTABNEWSDETAILS",
                 "text": "News Details..... ........ ..... ......... ...... ...................... ....... ................... ................ .......... .......... ...",
                 "top": "56%",
-                "width": "92%",
+                "width": "86%",
                 "zIndex": 1
             }, {
                 "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -2002,7 +2002,23 @@ define("frmNewsAndWeather", function() {
                 "top": "0dp",
                 "width": "100%"
             }, {}, {});
-            flxKnowledgeFramework.add(KnowledgeFrameworkTablet);
+            var imgCloseKF = new kony.ui.Image2({
+                "height": "20dp",
+                "id": "imgCloseKF",
+                "isVisible": true,
+                "onTouchEnd": controller.AS_Image_a6e35d038bda4dc2a83a64df998893b4,
+                "right": "5%",
+                "skin": "slImage",
+                "src": "closewhite.png",
+                "top": "5%",
+                "width": "20dp",
+                "zIndex": 4
+            }, {
+                "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {});
+            flxKnowledgeFramework.add(KnowledgeFrameworkTablet, imgCloseKF);
             var btnKnowledgeFramework = new kony.ui.Button({
                 "bottom": "50dp",
                 "focusSkin": "CopyslButtonGlossRed0fed1ff9fa70342",
@@ -2089,7 +2105,23 @@ define("frmNewsAndWeather", function() {
                 "showProgressIndicator": true
             });
             flxFullNewsWrap.add(brwNewsDetails, ButtonRound);
-            flxNewsDetails.add(flxFullNewsWrap);
+            var imgCloseND = new kony.ui.Image2({
+                "height": "20dp",
+                "id": "imgCloseND",
+                "isVisible": true,
+                "onTouchEnd": controller.AS_Image_fba6298b646f422f838f0450e03a2d63,
+                "right": "5%",
+                "skin": "slImage",
+                "src": "closewhite.png",
+                "top": "5%",
+                "width": "20dp",
+                "zIndex": 4
+            }, {
+                "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {});
+            flxNewsDetails.add(flxFullNewsWrap, imgCloseND);
             var flxBlur = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,

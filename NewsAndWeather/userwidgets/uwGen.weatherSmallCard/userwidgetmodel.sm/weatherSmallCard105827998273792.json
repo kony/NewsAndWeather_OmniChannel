@@ -1,0 +1,60 @@
+{
+	"DNDConfig": null,
+	"__parentReadjusting__": false,
+	"_margin_": [
+		0,
+		0,
+		0,
+		0
+	],
+	"_orientation_": 6,
+	"_padding_": [
+		0,
+		0,
+		0,
+		0
+	],
+	"_percent_": true,
+	"_skin_": "ps444f19b23d7611e8831de1bd0e6fda5c",
+	"allboxes": [],
+	"canUpdateUI": true,
+	"children": [
+		"Rectangle2140548320178928",
+		"lblTemp140548320061328",
+		"lblDate140548320517280",
+		"weatherlargerainheavy106377762565120"
+	],
+	"clipbounds": true,
+	"containerweight": 100,
+	"enablescrolling": true,
+	"info": null,
+	"isvisible": true,
+	"layouttype": 2,
+	"name": "kony.ui.FlexContainer",
+	"snapgridsize": 10,
+	"snaptogrid": true,
+	"wType": "FlexContainer",
+	"widgetalignment": 1,
+	"id": "weatherSmallCard105827998273792",
+	"kuid": "ps44f6a4503d7611e8831de1bd0e6fda5c",
+	"_width_": {
+		"type": "string",
+		"value": "110px"
+	},
+	"_height_": {
+		"type": "string",
+		"value": "143px"
+	},
+	"_left_": {
+		"type": "string",
+		"value": "0%"
+	},
+	"_top_": {
+		"type": "string",
+		"value": "0%"
+	},
+	"zindex": 0,
+	"pf": "userwidgetmodel",
+	"parent": "weatherSmallCard",
+	"focusskin": "ps444f19b23d7611e8831de1bd0e6fda5c"
+}

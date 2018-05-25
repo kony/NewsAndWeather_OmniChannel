@@ -14,6 +14,11 @@ function AS_Button_b7c93521371e4abd850f63754d2bd3c8(eventobject) {
     this.onGetStarted();
 }
 
+function AS_Button_c5b644cc89214b9b91e0ec4ae2c90260(eventobject) {
+    var self = this;
+    this.onClickPlayButton(eventobject.id);
+}
+
 function AS_Button_d35edc11a27e42b28e76d53809c6daf7(eventobject) {
     var self = this;
     this.onClickPlayButton(eventobject.id);
@@ -32,6 +37,11 @@ function AS_Button_f9e7b46299ed44238d0f3181e67ddbbc(eventobject) {
 function AS_Button_fcbdeda94c7b4fd7bc7508403db3c17f(eventobject) {
     var self = this;
     this.onClickNext();
+}
+
+function AS_Button_ifc70f744faa4573b02b453683ce8fcf(eventobject) {
+    var self = this;
+    this.onClickPlayButton(eventobject.id);
 }
 
 function AS_Button_jf7ec43e72814d60aadf22cdef2aa6b6(eventobject) {
@@ -56,6 +66,11 @@ function AS_FlexContainer_b6ec4441fd274b89a2e4ba618ee99d4c(eventobject) {
 function AS_FlexContainer_bb41b71cf12c417ca335e843845f2288(eventobject) {
     var self = this;
     this.view.segGetStarted.pageSkin = "sknpaging";
+}
+
+function AS_FlexContainer_bcebdc170fde410b8ac13ec7ca37a509(eventobject) {
+    var self = this;
+    this.onClickBack();
 }
 
 function AS_FlexContainer_c048300a3ec34ffd93bc4493926ec85e(eventobject) {
@@ -88,6 +103,15 @@ function AS_FlexContainer_cf29c72c3dce451c9e764b20780997a5(eventobject) {
     this.showAccord(eventobject.id);
 }
 
+function AS_FlexContainer_d40d33aab67d4319bfcbe00231aff726(eventobject) {
+    var self = this;
+    // if(this.view.rchTextDesc.isVisible === true)
+    //   this.onClickDisappear(eventobject);
+    // else
+    //   this.onClickDisplay(eventobject);
+    this.showAccord(eventobject.id);
+}
+
 function AS_FlexContainer_df4e57dc26134923b04582e9bbf12332(eventobject) {
     var self = this;
 }
@@ -95,6 +119,15 @@ function AS_FlexContainer_df4e57dc26134923b04582e9bbf12332(eventobject) {
 function AS_FlexContainer_e007ca5e942e474fa13735d61e8be717(eventobject) {
     var self = this;
     // if(this.view.rchTextDesc.isVisible === true)
+    //   this.onClickDisappear(eventobject);
+    // else
+    //   this.onClickDisplay(eventobject);
+    this.showAccord(eventobject.id);
+}
+
+function AS_FlexContainer_e9ec08ecba9e4a38a34e1f84788fad57(eventobject) {
+    var self = this;
+    // if(this.view.lblCodeSnippet.isVisible === true)
     //   this.onClickDisappear(eventobject);
     // else
     //   this.onClickDisplay(eventobject);
@@ -127,6 +160,15 @@ function AS_FlexContainer_ge13e3a87b774a75bd5e3df8c9b08f09(eventobject) {
     this.showAccord(eventobject.id);
 }
 
+function AS_FlexContainer_h3222d9aeccd4c388a760c960bc88189(eventobject) {
+    var self = this;
+    // if(this.view.rchtextDoc.isVisible === true)
+    //   this.onClickDisappear(eventobject);
+    // else
+    //   this.onClickDisplay(eventobject);
+    this.showAccord(eventobject.id);
+}
+
 function AS_FlexContainer_hc44409934fe4a7c87a833420573c456(eventobject) {
     // if(this.view.lblCodeSnippet.isVisible === true)
     //   this.onClickDisappear(eventobject);
@@ -141,6 +183,11 @@ function AS_FlexContainer_i1a385eee9994b9a8dcf0c9cc310e557(eventobject) {
     // else
     //   this.onClickDisplay(eventobject);
     this.showAccord(eventobject.id);
+}
+
+function AS_FlexContainer_j349e728f1ec4db68b5d155839e02d9a(eventobject) {
+    var self = this;
+    this.closeWhenDone();
 }
 
 function AS_FlexContainer_jf582ae16db246a8aa7078364c207959(eventobject) {
@@ -164,7 +211,17 @@ function AS_RichText_b5bf03a5740d4e9aade23203c3a52ba4(eventobject, linktext, att
     this.onLinkClick()
 }
 
+function AS_Segment_afcf61ab2c924f2a90233f41187b8a74(eventobject, sectionNumber, rowNumber) {
+    var self = this;
+    this.onRowClick();
+}
+
 function AS_Segment_c15f79c5cf1c42d88f3fb10e1e5c2420(eventobject, sectionNumber, rowNumber) {
+    var self = this;
+    this.onRowClick();
+}
+
+function AS_Segment_ce4cc9572abe4dfc97fe8c0a08a08411(eventobject, sectionNumber, rowNumber) {
     var self = this;
     this.onRowClick();
 }

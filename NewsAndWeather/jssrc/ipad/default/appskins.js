@@ -75,6 +75,7 @@ function skinsInit() {
     CopysknFullFlex = "CopysknFullFlex";
     CopysknFullKnowledge = "CopysknFullKnowledge";
     CopysknLabelHeading = "CopysknLabelHeading";
+    CopysknLabelHeading0fe3d92227ed642 = "CopysknLabelHeading0fe3d92227ed642";
     CopysknLabelKnowledge0f9feaf03022349 = "CopysknLabelKnowledge0f9feaf03022349";
     CopysknLblffb = "CopysknLblffb";
     CopysknLblHeaderWhiteffffff = "CopysknLblHeaderWhiteffffff";
@@ -138,6 +139,7 @@ function skinsInit() {
     CopyslFbox0f3ab5e64044848 = "CopyslFbox0f3ab5e64044848";
     CopyslFbox0f50377f2b7e646 = "CopyslFbox0f50377f2b7e646";
     CopyslFbox0f54e6831b2364d = "CopyslFbox0f54e6831b2364d";
+    CopyslFbox0ffa6b89fd3c24f = "CopyslFbox0ffa6b89fd3c24f";
     CopyslFbox0gd59e976912e42 = "CopyslFbox0gd59e976912e42";
     CopyslFbox0h250515138574e = "CopyslFbox0h250515138574e";
     CopyslFbox0h819ee2043fa41 = "CopyslFbox0h819ee2043fa41";
@@ -234,6 +236,17 @@ function skinsInit() {
     lblArrow = "lblArrow";
     seg2Focus = "seg2Focus";
     seg2Normal = "seg2Normal";
+    skin444f19b1 = "skin444f19b1";
+    skin444fdd00 = "skin444fdd00";
+    skin44505230 = "skin44505230";
+    skin4450c760 = "skin4450c760";
+    skin44af6220 = "skin44af6220";
+    skin4585ec00 = "skin4585ec00";
+    skin45880ee0 = "skin45880ee0";
+    skin4588f940 = "skin4588f940";
+    skin45896e70 = "skin45896e70";
+    skin4589e3a0 = "skin4589e3a0";
+    skin45907352 = "skin45907352";
     sknblue = "sknblue";
     sknblueform = "sknblueform";
     sknbtn = "sknbtn";
@@ -261,6 +274,7 @@ function skinsInit() {
     SKNFLXKFDWBG = "SKNFLXKFDWBG";
     sknFlxVideo = "sknFlxVideo";
     SKNFLXWHITE = "SKNFLXWHITE";
+    SKNFLXWHITE1px = "SKNFLXWHITE1px";
     SKNFLXWHITEBLUR = "SKNFLXWHITEBLUR";
     SKNFRMFFF = "SKNFRMFFF";
     sknFullFlex = "sknFullFlex";
@@ -275,6 +289,7 @@ function skinsInit() {
     SKNLBLNEWSDESC = "SKNLBLNEWSDESC";
     SKNLBLNEWSDETAILSTOP = "SKNLBLNEWSDETAILSTOP";
     sknlblNewsTitlr = "sknlblNewsTitlr";
+    SKNLBLSELECTEDNEWS = "SKNLBLSELECTEDNEWS";
     sknlbltemp = "sknlbltemp";
     SKNLBLWHITE = "SKNLBLWHITE";
     sknlblwhiteham = "sknlblwhiteham";
@@ -302,11 +317,13 @@ function skinsInit() {
     slButtonGlossBlue = "slButtonGlossBlue";
     slButtonGlossRed = "slButtonGlossRed";
     slButtonTransBlue = "slButtonTransBlue";
+    slDate = "slDate";
     slDynamicNotificationForm = "slDynamicNotificationForm";
     slFbox = "slFbox";
     slFbox0c5b64409e1e34f = "slFbox0c5b64409e1e34f";
     slFbox0d6f8dcb7e6f647 = "slFbox0d6f8dcb7e6f647";
     slFbox0e4a05759a17541 = "slFbox0e4a05759a17541";
+    slFbox0e6cc6772923e43 = "slFbox0e6cc6772923e43";
     slFontAwesomeIcon = "slFontAwesomeIcon";
     slForm = "slForm";
     slFSbox = "slFSbox";

@@ -1,7 +1,7 @@
 //startup.js file
 var globalhttpheaders = {};
 var appConfig = {
-    appId: "NewsAndWeather",
+    appId: "NewsAndWeatherSk",
     appName: "NewsAndWeather",
     appVersion: "1.0.0",
     platformVersion: null,
@@ -9,7 +9,7 @@ var appConfig = {
     serverPort: "80",
     secureServerPort: "443",
     isDebug: true,
-    middlewareContext: "NewsAndWeather",
+    middlewareContext: "NewsAndWeatherSk",
     isturlbase: "https://mfreddy.konycloud.com/services",
     isMFApp: true,
     appKey: "80e71eb248286ed79221eeeed7bc17bc",
@@ -26,6 +26,7 @@ var appConfig = {
             "ZCityWeather": "https://mfreddy.konycloud.com/services/ZCityWeather",
             "ZLocalNews": "https://mfreddy.konycloud.com/services/ZLocalNews"
         },
+        "service_doc_etag": "0000016204EC3DF0",
         "appId": "f8837a48-862d-4752-95a6-35da5035ea4d",
         "identity_features": {
             "reporting_params_header_allowed": true
@@ -78,11 +79,10 @@ var appConfig = {
             "url": "https://mfreddy.konycloud.com/NewsAndWeather"
         }
     },
-    svcDocRefresh: false,
-    svcDocRefreshTimeSecs: -1,
+    runtimeAppVersion: "1.0",
     eventTypes: ["FormEntry", "Error", "Crash"],
-    url: "https://mfreddy.konycloud.com/NewsAndWeather/MWServlet",
-    secureurl: "https://mfreddy.konycloud.com/NewsAndWeather/MWServlet"
+    url: "https://100006023.auth.konycloud.com/appconfig",
+    secureurl: "https://100006023.auth.konycloud.com/appconfig"
 };
 sessionID = "";
 

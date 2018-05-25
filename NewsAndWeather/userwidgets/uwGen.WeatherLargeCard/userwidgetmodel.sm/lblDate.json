@@ -1,0 +1,79 @@
+{
+	"@class": "com.kony.gen.viz.model.component.KVizLabel",
+	"DNDConfig": null,
+	"__parentReadjusting__": false,
+	"_height_": {
+		"type": "string",
+		"value": "19px"
+	},
+	"_width_": {
+		"type": "string",
+		"value": "88px"
+	},
+	"_margin_": [
+		0,
+		0,
+		0,
+		0
+	],
+	"_padding_": [
+		0,
+		0,
+		0,
+		0
+	],
+	"_wrapping_": 2,
+	"android": {
+		"textStyle": {
+			"letterSpacing": "null",
+			"lineSpacing": 0,
+			"strikeThrough": false
+		}
+	},
+	"canUpdateUI": true,
+	"containerweight": 100,
+	"contentalignment": 4,
+	"id": "lblDate",
+	"info": null,
+	"ipad": {
+		"psp": {
+			"wrapping": 2
+		},
+		"textStyle": {
+			"baseline": 0,
+			"lineSpacing": 0,
+			"letterSpacing": "null",
+			"strikeThrough": false
+		}
+	},
+	"iphone": {
+		"psp": {
+			"wrapping": 2
+		},
+		"textStyle": {
+			"baseline": 0,
+			"lineSpacing": 0,
+			"letterSpacing": "null",
+			"strikeThrough": false
+		}
+	},
+	"isvisible": true,
+	"name": "kony.ui.Label",
+	"tooltip": "",
+	"wType": "Label",
+	"kuid": "ps44afb0403d7611e8831de1bd0e6fda5c",
+	"_text_": "FRI, 6 APR",
+	"_left_": {
+		"type": "string",
+		"value": "33.2%"
+	},
+	"_top_": {
+		"type": "string",
+		"value": "8.39%"
+	},
+	"zindex": 2,
+	"pf": "userwidgetmodel",
+	"parent": "WeatherCard",
+	"focusskin": "ps44af62213d7611e8831de1bd0e6fda5c",
+	"_skin_": "ps44af62213d7611e8831de1bd0e6fda5c"
+}

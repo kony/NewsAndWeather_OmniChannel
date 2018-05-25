@@ -252,3 +252,79 @@ function makeCall(eventobject) {
 };
 
 function initializeGlobalVariables() {};
+
+function onBreakpointHandler(formModel, width) {
+    var flexProps = ['left', 'top', 'right', 'bottom', 'width', 'height', 'minWidth', 'maxWidth', 'minHeight', 'maxHeight', 'zIndex', 'centerX', 'centerY'];
+    if (formModel.breakpointData) {
+        var width = (width === constants.BREAKPOINT_MAX_VALUE) ? formModel.breakpointData.maxBreakpointWidth : width;
+        if (formModel.breakpointData[width]) {
+            var bdata = formModel.breakpointData[width];
+            for (var widgetId in bdata) {
+                var setterBasePath = formModel;
+                if (bdata[widgetId].parent) {
+                    setterBasePath = formModel[bdata[widgetId].parent];
+                }
+                var setterFinalPath = setterBasePath;
+                if (formModel.id !== widgetId) {
+                    setterFinalPath = setterBasePath[widgetId];
+                }
+                var wdata = bdata[widgetId];
+                for (var prop in wdata) {
+                    if (prop === 'parent') {
+                        continue
+                    };
+                    if (formModel.breakpointResetData && (typeof formModel.breakpointResetData[widgetId] === 'undefined' || typeof formModel.breakpointResetData[widgetId][prop] === 'undefined')) {
+                        if (!formModel.breakpointResetData[widgetId]) {
+                            formModel.breakpointResetData[widgetId] = {};
+                        }
+                        if (flexProps.indexOf(prop) > -1) {
+                            formModel.breakpointResetData[widgetId][prop] = {};
+                            formModel.breakpointResetData[widgetId][prop].value = setterFinalPath[prop];
+                        } else {
+                            formModel.breakpointResetData[widgetId][prop] = setterFinalPath[prop] || "";
+                        }
+                        if (wdata.parent) {
+                            formModel.breakpointResetData[widgetId].parent = wdata.parent;
+                        }
+                    }
+                    if (flexProps.indexOf(prop) > -1) {
+                        setterFinalPath[prop] = wdata[prop].value;
+                    } else {
+                        setterFinalPath[prop] = wdata[prop];
+                    }
+                }
+            }
+        }
+        //Reset previous breakpoint values
+        if (formModel.breakpointResetData) {
+            var wdata = null;
+            if (formModel.breakpointData[width]) {
+                wdata = formModel.breakpointData[width];
+            } else {
+                wdata = {};
+            }
+            for (var wgtId in formModel.breakpointResetData) {
+                var wgtData = wdata[wgtId] || {};
+                var wgtResetData = formModel.breakpointResetData[wgtId];
+                var setterBasePath = formModel;
+                if (wgtResetData.parent) {
+                    setterBasePath = setterBasePath[wgtResetData.parent];
+                }
+                if (formModel.id !== wgtId) {
+                    setterBasePath = setterBasePath[wgtId];
+                }
+                for (var prop in wgtResetData) {
+                    if (prop === 'parent' || wgtData[prop] !== undefined) {
+                        continue;
+                    }
+                    if (flexProps.indexOf(prop) > -1) {
+                        setterBasePath[prop] = wgtResetData[prop].value;
+                    } else {
+                        setterBasePath[prop] = wgtResetData[prop];
+                    }
+                    delete wgtResetData[prop];
+                }
+            }
+        }
+    }
+}

@@ -35,14 +35,51 @@ define({
             "classname": "slidingmenu",
             "name": "com.konymp.slidingmenu"
         });
-        kony.mvc.registry.add("flxFeatureRowTemp", "flxFeatureRowTemp", "flxFeatureRowTempController");
-        kony.mvc.registry.add("frmNewsAndWeather", "frmNewsAndWeather", "frmNewsAndWeatherController");
+        kony.mvc.registry.add("uwGen.NewsBanner", "NewsBanner", "NewsBannerController");
+        kony.application.registerMaster({
+            "namespace": "uwGen",
+            "classname": "NewsBanner",
+            "name": "uwGen.NewsBanner"
+        });
+        kony.mvc.registry.add("uwGen.NewsCard", "NewsCard", "NewsCardController");
+        kony.application.registerMaster({
+            "namespace": "uwGen",
+            "classname": "NewsCard",
+            "name": "uwGen.NewsCard"
+        });
+        kony.mvc.registry.add("uwGen.WeatherLargeCard", "WeatherLargeCard", "WeatherLargeCardController");
+        kony.application.registerMaster({
+            "namespace": "uwGen",
+            "classname": "WeatherLargeCard",
+            "name": "uwGen.WeatherLargeCard"
+        });
+        kony.mvc.registry.add("uwGen.weatherSmallCard", "weatherSmallCard", "weatherSmallCardController");
+        kony.application.registerMaster({
+            "namespace": "uwGen",
+            "classname": "weatherSmallCard",
+            "name": "uwGen.weatherSmallCard"
+        });
+        kony.mvc.registry.add("uwGen1.NewsBanner", "NewsBanner", "NewsBannerController");
+        kony.application.registerMaster({
+            "namespace": "uwGen1",
+            "classname": "NewsBanner",
+            "name": "uwGen1.NewsBanner"
+        });
+        kony.mvc.registry.add("CopyflxFeatureRowTemp0e026b4a919e14e", "CopyflxFeatureRowTemp0e026b4a919e14e", "CopyflxFeatureRowTemp0e026b4a919e14eController");
+        kony.mvc.registry.add("CopyflxFullSplashScreen0ja52df18a3344e", "CopyflxFullSplashScreen0ja52df18a3344e", "CopyflxFullSplashScreen0ja52df18a3344eController");
+        kony.mvc.registry.add("CopyflxRow", "CopyflxRow", "CopyflxRowController");
+        kony.mvc.registry.add("flexAPIs", "flexAPIs", "flexAPIsController");
+        kony.mvc.registry.add("flexMainNews", "flexMainNews", "flexMainNewsController");
+        kony.mvc.registry.add("flexNewsSelectionMain", "flexNewsSelectionMain", "flexNewsSelectionMainController");
+        kony.mvc.registry.add("flxFullSplashScreen", "flxFullSplashScreen", "flxFullSplashScreenController");
+        kony.mvc.registry.add("flxNewsCatWraper", "flxNewsCatWraper", "flxNewsCatWraperController");
+        kony.mvc.registry.add("frmNewsAndWeather444c3380", "frmNewsAndWeather444c3380", "frmNewsAndWeather444c3380Controller");
         setAppBehaviors();
     },
-    postAppInitCallBack: function() {
-        return applicationController.AS_AppEvents_bd6a68c68fc846a38eeae091a302680a();
+    postAppInitCallBack: function(eventObj) {
+        return applicationController.AS_AppEvents_bd6a68c68fc846a38eeae091a302680a(eventObj);
     },
     appmenuseq: function() {
-        new kony.mvc.Navigation("frmNewsAndWeather").navigate();
+        new kony.mvc.Navigation("frmNewsAndWeather444c3380").navigate();
     }
 });

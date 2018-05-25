@@ -2,7 +2,7 @@
   "android": {
     "font_color": "ffffffff",
     "font_name": "roboto.regular",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
@@ -15,7 +15,7 @@
   "desktopweb": {
     "font_color": "ffffffff",
     "font_name": "Helvetica",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
@@ -28,20 +28,20 @@
   "ipad": {
     "font_color": "ffffffff",
     "font_name": "SFUIText-Regular",
-    "font_size": 140,
+    "font_size": 120,
     "isForked": true
   },
   "iphone": {
     "font_color": "ffffffff",
     "font_name": "SFUIDisplay-Bold",
-    "font_size": 140,
+    "font_size": 120,
     "isForked": true
   },
   "isDefaultSkin": false,
   "kiosk": {
     "font_color": "ffffffff",
     "font_name": "FontAwesome",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
@@ -49,56 +49,56 @@
   "spaan": {
     "font_color": "ffffffff",
     "font_name": "Helvetica",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
   "spaandroidtablet": {
     "font_color": "ffffffff",
     "font_name": "Helvetica",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
   "spabb": {
     "font_color": "ffffffff",
     "font_name": "Helvetica",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
   "spaip": {
     "font_color": "ffffffff",
     "font_name": "SFUIText-Regular",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
   "spaipad": {
     "font_color": "ffffffff",
     "font_name": "SFUIText-Regular",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
   "spawindowstablet": {
     "font_color": "ffffffff",
     "font_name": "Helvetica",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
   "spawinphone8": {
     "font_color": "ffffffff",
     "font_name": "Helvetica",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
   "tabrcandroid": {
     "font_color": "ffffffff",
     "font_name": "sans-serif",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
@@ -106,21 +106,21 @@
   "watchos": {
     "font_color": "ffffffff",
     "font_name": "Helvetica",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
   "windows8": {
     "font_color": "ffffffff",
     "font_name": "FontAwesome",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   },
   "winphone8": {
     "font_color": "ffffffff",
     "font_name": "FontAwesome",
-    "font_size": 140,
+    "font_size": 120,
     "font_weight": "bold",
     "isForked": true
   }

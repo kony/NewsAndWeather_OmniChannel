@@ -1,0 +1,82 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "628px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s2a016ad20de42e9858c145b4fde0e87",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "Row1",
+        "Row2"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CardBoard",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ps444cf6d03d7611e8831de1bd0e6fda5c",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "NewsBoard",
+    "pf": "frmNewsAndWeather444c3380",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "ref",
+                "value": "preferred"
+            }
+        },
+        "b2": {
+            "height": {
+                "type": "ref",
+                "value": "preferred"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "ref",
+                "value": "preferred"
+            }
+        },
+        "property": {}
+    },
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 0
+}

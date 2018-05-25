@@ -50,6 +50,36 @@ define({
             "classname": "slidingmenu",
             "name": "com.konymp.slidingmenu"
         });
+        kony.mvc.registry.add("uwGen.NewsBanner", "NewsBanner", "NewsBannerController");
+        kony.application.registerMaster({
+            "namespace": "uwGen",
+            "classname": "NewsBanner",
+            "name": "uwGen.NewsBanner"
+        });
+        kony.mvc.registry.add("uwGen.NewsCard", "NewsCard", "NewsCardController");
+        kony.application.registerMaster({
+            "namespace": "uwGen",
+            "classname": "NewsCard",
+            "name": "uwGen.NewsCard"
+        });
+        kony.mvc.registry.add("uwGen.WeatherLargeCard", "WeatherLargeCard", "WeatherLargeCardController");
+        kony.application.registerMaster({
+            "namespace": "uwGen",
+            "classname": "WeatherLargeCard",
+            "name": "uwGen.WeatherLargeCard"
+        });
+        kony.mvc.registry.add("uwGen.weatherSmallCard", "weatherSmallCard", "weatherSmallCardController");
+        kony.application.registerMaster({
+            "namespace": "uwGen",
+            "classname": "weatherSmallCard",
+            "name": "uwGen.weatherSmallCard"
+        });
+        kony.mvc.registry.add("uwGen1.NewsBanner", "NewsBanner", "NewsBannerController");
+        kony.application.registerMaster({
+            "namespace": "uwGen1",
+            "classname": "NewsBanner",
+            "name": "uwGen1.NewsBanner"
+        });
         kony.mvc.registry.add("CopyflxRow", "CopyflxRow", "CopyflxRowController");
         kony.mvc.registry.add("flexMainNews", "flexMainNews", "flexMainNewsController");
         kony.mvc.registry.add("flxFullSplashScreen", "flxFullSplashScreen", "flxFullSplashScreenController");
@@ -64,7 +94,7 @@ define({
         kony.application.setRespectImageSizeForImageWidgetAlignment(true);
         setAppBehaviors();
     },
-    postAppInitCallBack: function() {},
+    postAppInitCallBack: function(eventObj) {},
     appmenuseq: function() {
         new kony.mvc.Navigation("frmSplash").navigate();
     }

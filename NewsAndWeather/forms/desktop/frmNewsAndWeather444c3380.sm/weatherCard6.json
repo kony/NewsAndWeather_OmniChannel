@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "143px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "ps444f19b23d7611e8831de1bd0e6fda5c",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "130px"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "CopyRectangle0b38715d9a4b148",
+        "lblTemp6",
+        "lblDate5",
+        "imgTemp6"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "focusskin": "ps444f19b23d7611e8831de1bd0e6fda5c",
+    "id": "weatherCard6",
+    "info": null,
+    "isvisible": true,
+    "kuid": "bcd69d2d45134ec59fbaa8d4d7bba570",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxWeatherNewsWrapper",
+    "pf": "frmNewsAndWeather444c3380",
+    "responsiveData": {
+        "b1": {}
+    },
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 0
+}

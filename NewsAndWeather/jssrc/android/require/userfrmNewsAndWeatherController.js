@@ -76,7 +76,6 @@ define({
                 alert("Invalid id");
                 category = null;
         }
-        alert(category);
         this.getNews(category);
         this.view.flxLocation.setVisibility(false);
         this.view.segNews.removeAll();

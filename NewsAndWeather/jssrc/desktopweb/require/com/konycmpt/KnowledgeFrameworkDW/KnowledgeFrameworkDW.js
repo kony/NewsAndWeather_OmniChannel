@@ -178,7 +178,6 @@ define(function() {
             "retainSelection": false,
             "rowFocusSkin": "seg2Focus",
             "rowSkin": "Copyseg0e4139ab9e50143",
-            "rowTemplate": "flxFeatureRowTemp",
             "sectionHeaderSkin": "sliPhoneSegmentHeader",
             "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
             "separatorColor": "64646400",

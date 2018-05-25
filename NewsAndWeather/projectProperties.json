@@ -1,6 +1,7 @@
 {
     "mwaddrkey": "",
     "projectCloudGuid": "6dcfeee4-3516-4c01-97d0-af341e0bfb1b",
+    "watchStartUpFormKey": "",
     "wap_android360_fontsize": "12",
     "isA11yConfigEnabled": false,
     "watchos_notificationcentericon_42": "",
@@ -8,10 +9,10 @@
     "defaultlocalekey": null,
     "apppackagekey": "",
     "nativeContainerProperties": {
-        "isModified": false,
-        "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
-        "isEnableJSContaineriOS": true
+        "isModified": true,
+        "isEnableJSContaineriOS": true,
+        "isEnableJSContainer": true
     },
     "wap_android400_fontsize": "12",
     "wap_spaandroidtabhdpi_fontsize": "12",
@@ -23,6 +24,43 @@
     "project.type": "js",
     "startupformkey": "f93855e1d3b047d085031fae86b2f695",
     "wap_bb480_fontsize": "12",
+    "kfAppInfo": {
+        "147abad9-e5d0-4108-ab0b-70743455dc49": {
+            "baseId": "6a074535-94ec-4b27-8790-2f93f888e19a",
+            "id": "6a074535-94ec-4b27-8790-2f93f888e19a",
+            "version": "1.0"
+        },
+        "944ad2ba-2fd3-42bc-a25a-88723d35827e": {
+            "baseId": "ec83b839-8192-4f12-8906-d09b54e16337",
+            "id": "ec83b839-8192-4f12-8906-d09b54e16337",
+            "version": "1.0"
+        },
+        "2d05ccf6-4be9-435b-8a28-47677ef523f3": {
+            "baseId": "434133bf-9f1a-4c59-b12c-4b8202f79220",
+            "id": "434133bf-9f1a-4c59-b12c-4b8202f79220",
+            "version": "1.0"
+        },
+        "3b767d5a-e7ff-4470-8325-2ebe66b1427f": {
+            "baseId": "b8390f51-cbba-4ba0-bcb9-422ba5cc3e6c",
+            "id": "b8390f51-cbba-4ba0-bcb9-422ba5cc3e6c",
+            "version": "1.0"
+        },
+        "31425e7e-e8b7-44bf-9734-63d3aeaf1cf4": {
+            "baseId": "f16ff2ad-723e-4289-965f-a013f236ecb3",
+            "id": "f16ff2ad-723e-4289-965f-a013f236ecb3",
+            "version": "1.0"
+        },
+        "8073157c-9cc8-4394-8441-0817ff77a4a3": {
+            "baseId": "2190ffa2-5a83-432f-b230-0548e0e65671",
+            "id": "2190ffa2-5a83-432f-b230-0548e0e65671",
+            "version": "1.0"
+        },
+        "835ccb99-10d9-49bd-b22c-665affc20a25": {
+            "id": "a5e8ac4b-8e0f-4a75-8568-884d4a74ee1f",
+            "baseId": "a5e8ac4b-8e0f-4a75-8568-884d4a74ee1f",
+            "version": "1.0"
+        }
+    },
     "wap_winphone480_fontsize": "12",
     "enableCustomData": false,
     "wap_android640_fontsize": "12",
@@ -31,16 +69,16 @@
     "createdgaversion": "8.0.0",
     "watchos_notificationcentericon_38": "",
     "isMVC": true,
-    "watchos_shortlooknotificationicon_42": "",
+    "desktopstartupformkey": "ps444c33813d7611e8831de1bd0e6fda5c",
     "enableactionbar": false,
-    "desktopstartupformkey": "g66b540469264921941dad9c4f85745e",
+    "watchos_shortlooknotificationicon_42": "",
     "wap_android480_fontsize": "12",
     "mastersProperties": {
         "mastersVersion": "2.0.0"
     },
     "wap_winphone320_fontsize": "12",
-    "watchos_longlooknotificationicon_42": "",
     "watchos_companionSettings3x29": "",
+    "watchos_longlooknotificationicon_42": "",
     "appmenu": {
         "tablet": {
             "data": [
@@ -142,17 +180,17 @@
                 }
             ]
         },
-        "osVersion": "iOS7",
         "focusskin": null,
+        "osVersion": "iOS7",
         "wType": "Appmenu",
         "focusSkin": null,
         "mobile": {
             "data": [
                 {
-                    "kuid": "d0faea22308f4fbfb6d2c0f7241b0e72",
                     "android": {
                         "showAsFlag": 0
                     },
+                    "kuid": "d0faea22308f4fbfb6d2c0f7241b0e72",
                     "icon": {
                         "default": "option1.png"
                     },
@@ -160,10 +198,10 @@
                     "title": "Item 1"
                 },
                 {
-                    "kuid": "i2d40f2dc1544c0a8448c468a6b7b9f1",
                     "android": {
                         "showAsFlag": 0
                     },
+                    "kuid": "i2d40f2dc1544c0a8448c468a6b7b9f1",
                     "icon": {
                         "default": "option2.png"
                     },
@@ -171,10 +209,10 @@
                     "title": "Item 2"
                 },
                 {
-                    "kuid": "d510fbe0e20840c6a8a50e4e116ee649",
                     "android": {
                         "showAsFlag": 0
                     },
+                    "kuid": "d510fbe0e20840c6a8a50e4e116ee649",
                     "icon": {
                         "default": "option3.png"
                     },
@@ -182,10 +220,10 @@
                     "title": "Item 3"
                 },
                 {
-                    "kuid": "j2f0e0e2cd9042f6ad0d373981433d64",
                     "android": {
                         "showAsFlag": 0
                     },
+                    "kuid": "j2f0e0e2cd9042f6ad0d373981433d64",
                     "icon": {
                         "default": "option4.png"
                     },
@@ -198,13 +236,13 @@
         "osPlatform": ""
     },
     "wap_spaipad_fontsize": "12",
-    "mwportkey": "",
     "cordovaModified": false,
+    "mwportkey": "",
     "watchos_watchMarketing1x": "",
     "mwhttpsportkey": "",
     "wap_bb440_fontsize": "12",
     "wap_bb400_fontsize": "12",
-    "appidkey": "NewsAndWeather",
+    "appidkey": "NewsAndWeatherSk",
     "statusBarHidden": "false",
     "wap_bb360_fontsize": "12",
     "isNewAppWithRespectToAndroidPackageName": "",
@@ -213,54 +251,45 @@
     "defaulttheme": "defaultTheme",
     "watchos_companionSettings2x29": "",
     "watchos_shortlooknotificationicon_38": "",
+    "enableResponsive": true,
     "appaddrkey": "",
+    "tabletstartupformkey": "d37ea938387d4708b1e291366015be3a",
     "appnamekey": "NewsAndWeather",
-    "currentgaversion": "8.0.0",
-    "wap_bb320_fontsize": "12",
+    "currentgaversion": "8.2.0",
     "enableCordova": false,
-    "wap_bb240_fontsize": "12",
+    "wap_bb320_fontsize": "12",
     "enableIdForAutomation": false,
-    "mfappguid": {
-        "147abad9-e5d0-4108-ab0b-70743455dc49": "6a074535-94ec-4b27-8790-2f93f888e19a",
-        "2d05ccf6-4be9-435b-8a28-47677ef523f3": "434133bf-9f1a-4c59-b12c-4b8202f79220",
-        "3b767d5a-e7ff-4470-8325-2ebe66b1427f": "b8390f51-cbba-4ba0-bcb9-422ba5cc3e6c",
-        "8073157c-9cc8-4394-8441-0817ff77a4a3": "2190ffa2-5a83-432f-b230-0548e0e65671",
-        "835ccb99-10d9-49bd-b22c-665affc20a25": "a5e8ac4b-8e0f-4a75-8568-884d4a74ee1f",
-        "944ad2ba-2fd3-42bc-a25a-88723d35827e": "ec83b839-8192-4f12-8906-d09b54e16337",
-        "31425e7e-e8b7-44bf-9734-63d3aeaf1cf4": "f16ff2ad-723e-4289-965f-a013f236ecb3"
-    },
+    "wap_bb240_fontsize": "12",
     "desktopwebbasefontsize": "12",
     "wap_android240_fontsize": "12",
     "wap_spaandroidtabldpi_fontsize": "12",
     "wap_spaandroidtabmdpi_fontsize": "12",
-    "konyVizVersion": "8.0.0",
+    "konyVizVersion": "8.2.0",
     "isDpScaleFactor": true,
-    "wap_spaandroidtab_fontsize": "12",
     "prototype": {
-        "createdOn": "2018-03-13T07:10:19.354Z",
-        "createdById": "8b8abb05-9933-4928-8ad3-967c96598584",
+        "PublishMode": "public",
+        "resourceId": "3146dc1b-9c95-48de-9cf1-25c68ce3e16f",
         "createdBy": "Hajimalung Baba",
         "shareGuid": "5X7HN",
-        "resourceId": "3146dc1b-9c95-48de-9cf1-25c68ce3e16f",
-        "PublishMode": "public"
+        "createdOn": "2018-03-13T07:10:19.354Z",
+        "createdById": "8b8abb05-9933-4928-8ad3-967c96598584"
     },
+    "wap_spaandroidtab_fontsize": "12",
     "referenceWidth": "375",
     "winmobileguidkey": "",
     "APPLICATION_THEME": "default",
     "ide_appEvents": {
-        "mobile": {
-            "appservice": "AS_AppEvents_be321f0d17f149e29b3df2a8d032e4f5"
-        },
         "desktop": {
             "postappinit": "AS_AppEvents_bd6a68c68fc846a38eeae091a302680a"
+        },
+        "mobile": {
+            "appservice": "AS_AppEvents_be321f0d17f149e29b3df2a8d032e4f5"
         }
     },
     "build": "debug",
-    "project_version": "sprint29",
+    "project_version": "sprint31",
     "wap_ip_fontsize": "12",
     "category": "app",
     "createdVizVersion": "8.0.0",
-    "tabletstartupformkey": "d37ea938387d4708b1e291366015be3a",
-    "watchStartUpFormKey": "faf90fa480d641ea9c17cee1bc60014e",
     "export.type": "studioviz"
 }

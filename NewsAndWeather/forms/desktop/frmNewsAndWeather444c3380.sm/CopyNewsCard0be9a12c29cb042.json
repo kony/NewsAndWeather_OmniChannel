@@ -1,0 +1,133 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "306px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "ps4450c7613d7611e8831de1bd0e6fda5c",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "306px"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "NewsCard": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ica27a007d4c4581af037dd8ef79db67",
+                "srcKUID": "ps444ea4813d7611e8831de1bd0e6fda5c",
+                "wType": "FlexContainer"
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "306px"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "2%"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0%"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "306px"
+                }
+            },
+            "zIndex": 1
+        },
+        "NewsCard105827998296576": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d04c57e6d8e34fc29c20e13db1faca6e",
+                "srcKUID": "ps444ef2a03d7611e8831de1bd0e6fda5c",
+                "wType": "FlexContainer"
+            }
+        },
+        "NewsDesc": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gfacb0e36a3c4c29a0015175042c2412",
+                "srcKUID": "ps44502b203d7611e8831de1bd0e6fda5c",
+                "wType": "Label"
+            }
+        },
+        "NewsImage": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ee861fb6d85248c1962083e6ca65bd6d",
+                "srcKUID": "ps4450a0503d7611e8831de1bd0e6fda5c",
+                "wType": "Image"
+            }
+        },
+        "NewsTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d331edfb392f43ccaa144e06af6fe634",
+                "srcKUID": "ps444f8ee03d7611e8831de1bd0e6fda5c",
+                "wType": "Label"
+            }
+        },
+        "Rectangle2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h52fec0a929f489fa6c59e862c727548",
+                "srcKUID": "ps444f19b03d7611e8831de1bd0e6fda5c",
+                "wType": "Image"
+            }
+        }
+    },
+    "focusskin": "ps4450c7613d7611e8831de1bd0e6fda5c",
+    "id": "CopyNewsCard0be9a12c29cb042",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ica27a007d4c4581af037dd8ef79db67",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "Row2",
+    "pf": "frmNewsAndWeather444c3380",
+    "snaptogrid": true,
+    "sourceUserWidget": "ps444ea4813d7611e8831de1bd0e6fda5c",
+    "wType": "UserWidgetInstance",
+    "zindex": 0
+}

@@ -1,5 +1,5 @@
 // -- SDK File : KonySyncLib.js 
-//  --Generated On Thu Dec 07 18:37:34 IST 2017******************* 
+//  --Generated On Wed Apr 04 21:10:11 IST 2018******************* 
 //  **************** Start jsonWriter.js*******************
 //#ifdef iphone
 	//#define KONYSYNC_IOS
@@ -1039,7 +1039,7 @@ kony.sync.createDownloadTask = function(dbname, tableName, columnName, primaryKe
         function claimsRefreshSuccessCallBack() {
             sync.log.trace("Entering kony.sync.createDownloadTask->claimsRefreshSuccessCallBack ");
             var currentClaimToken = kony.sdk.getCurrentInstance().currentClaimToken;
-            if (kony.sync.currentSyncConfigParams[kony.sync.authTokenKey] != currentClaimToken) {
+            if (!(kony.sync.isNullOrUndefined(kony.sync.currentSyncConfigParams)) && kony.sync.currentSyncConfigParams[kony.sync.authTokenKey] != currentClaimToken) {
                 kony.sync.currentSyncConfigParams[kony.sync.authTokenKey] = currentClaimToken;
             }
 
@@ -7486,29 +7486,27 @@ kony.sync.syncDownloadchangesGetLastSynctime = function(rowItem) {
 	    } 
 	}		    
 
-    function applyDownloadBatchChangesToDBonError()	{
-		sync.log.trace("Entering applyDownloadBatchChangesToDBonError");
-        var dbname = kony.sync.currentScope[kony.sync.scopeDataSource];
+	function ondownloadComplete(){
+		if(hasUploadErrors(serverChanges)) {
+			kony.sync.onDownloadCompletion(true, getUploadErrorsInfoMap(serverChanges));
+		}else {
+			kony.sync.onDownloadCompletion(true, kony.sync.getServerError(serverChanges.d, "download"));
+		}
+	}
+    function applyDownloadBatchChangesToDBonError()	{
+        var dbname = kony.sync.currentScope[kony.sync.scopeDataSource];
 		var dbconnection = kony.sync.getConnectionOnly(dbname, dbname, kony.sync.syncFailed);
 		if(dbconnection===null){
 			return;
 		}
-    	if(kony.sync.globalIsDownloadStarted)	{
-            if(kony.sync.isApplyChangesSync()) {
-            	if(hasUploadErrors(serverChanges)) {
-            		kony.db.transaction(dbconnection, downloadNextBatch, currentBatchDownloadError, kony.sync.onDownloadCompletion(true, getUploadErrorsInfoMap(serverChanges)));
-            	}else {
-                	kony.db.transaction(dbconnection, downloadNextBatch, currentBatchDownloadError, kony.sync.onDownloadCompletion(true, kony.sync.getServerError(serverChanges.d, "download")));
-                }
-            } else {
-				if(hasUploadErrors(serverChanges)) {
-            		kony.db.transaction(dbconnection, downloadNextBatch, currentBatchDownloadError, kony.sync.onDownloadCompletion(true, getUploadErrorsInfoMap(serverChanges)),{isCommitTransaction:false});
-            	} else {
-					kony.db.transaction(dbconnection, downloadNextBatch, currentBatchDownloadError, kony.sync.onDownloadCompletion(true, kony.sync.getServerError(serverChanges.d, "download")),{isCommitTransaction:false});
-				}
-            }
-        }
-    }
+    	if(kony.sync.globalIsDownloadStarted)	{
+			if(kony.sync.isApplyChangesSync()) {
+            	kony.db.transaction(dbconnection, downloadNextBatch, currentBatchDownloadError, ondownloadComplete);
+            } else {
+            	kony.db.transaction(dbconnection, downloadNextBatch, currentBatchDownloadError, ondownloadComplete,{isCommitTransaction:false});
+            	}
+            }
+        }
     
     function currentBatchDownloadError()	{
 		sync.log.trace("Entering currentBatchDownloadError");
@@ -17077,16 +17075,19 @@ kony.sync.invokeServiceAsync = function (url, params, callback, context) {
 		sync.log.trace("Entering localRequestCallback");
           var readyState = Number(httprequest.readyState.toString());
 	      var status = Number(httprequest.status.toString());
+          var localresponse = {};
             if (readyState == 4) {
                 kony.sdk.setLogLevelFromServerResponse(httprequest.getAllResponseHeaders());//
                 if( status == 200) {
 					if(kony.sync.isNullOrUndefined(httprequest.response)){
-						httprequest.response = {'opstatus':1012};
-					}	
+						localresponse = {'opstatus':1012};
+					} else {
+                        localresponse = httprequest.response;
+                    }	
                 }  else {
-                    httprequest.response = {'opstatus': 1012};
+                    localresponse = {'opstatus':1012};
                 }
-                callback(400, httprequest.response, context);
+                callback(400, localresponse, context);
             }
         }
     } //end of invokeServiceAsyncHelper

@@ -13,6 +13,14 @@ define({
     DEVICE_ORIENTATION_LANDSCAPE: 1,
     DEVICE_ORIENTATION_POTRAIT: 0,
     frmNewsAndWeatherPostShow: function() {
+        //for android tab potrait - 1
+        //landscape is - 2
+        //for ipad potrait - 0
+        //landscape - 1
+        if (kony.os.deviceInfo().name == "android") {
+            this.DEVICE_ORIENTATION_LANDSCAPE = 2;
+            this.DEVICE_ORIENTATION_POTRAIT = 1;
+        }
         this.orientationChangedCallback();
         this.view.flxCat1.onClick(this.view.flxCat1);
         this.view.KnowledgeFrameworkTablet.setData(this.KF_DATA);
@@ -246,7 +254,7 @@ define({
             "height": "25%",
             "id": "lblNewsTitle" + idToBeUsed,
             "isVisible": true,
-            "left": "4%",
+            "left": "8%",
             "skin": "SKNTABNEWSTITLE",
             "text": dataToShow.title,
             "textStyle": {
@@ -254,7 +262,7 @@ define({
                 "strikeThrough": false
             },
             "top": "32%",
-            "width": "92%",
+            "width": "84%",
             "zIndex": 1
         }, {
             "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -267,7 +275,7 @@ define({
             "height": "38%",
             "id": "lblNewsDetail" + idToBeUsed,
             "isVisible": true,
-            "left": "4%",
+            "left": "8%",
             "skin": "SKNTABNEWSDETAILS",
             "text": dataToShow.shortDesc,
             "textStyle": {
@@ -275,7 +283,7 @@ define({
                 "strikeThrough": false
             },
             "top": "56%",
-            "width": "92%",
+            "width": "84%",
             "zIndex": 1
         }, {
             "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -399,7 +407,6 @@ define({
     },
     orientationChangedCallback: function(eveObject) {
         var curntOrientation = kony.os.getDeviceCurrentOrientation();
-        alert("device potrait: " + this.DEVICE_ORIENTATION_POTRAIT + ";;; device landscape: " + this.DEVICE_ORIENTATION_LANDSCAPE + ";;; curnt :" + curntOrientation);
         if (curntOrientation === this.DEVICE_ORIENTATION_POTRAIT) {
             //alert("in potrait mode");
             this.view.flxHam.left = "-40%";

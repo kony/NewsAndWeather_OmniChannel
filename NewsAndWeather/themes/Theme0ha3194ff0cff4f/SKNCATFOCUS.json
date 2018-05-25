@@ -24,20 +24,21 @@
       "y": -1
     }
   },
-  "background_color": "343e48ff",
+  "background_color": "343e4884",
   "bg_type": "one",
   "border_color": "ffffff00",
   "border_style": "rc",
   "border_type": 0,
   "border_width": 1,
   "desktopweb": {
-    "font_size": 100,
+    "font_name": "karbon-bold",
+    "font_size": 108,
     "isForked": false
   },
   "fontSizeInPx": true,
-  "font_color": "f2f1f1e5",
+  "font_color": "f2f1f1ff",
   "font_name": "Helvetica",
-  "font_size": 43,
+  "font_size": 46,
   "font_style": "normal",
   "font_weight": "bold",
   "ipad": {
@@ -453,7 +454,7 @@
   },
   "wType": "Button",
   "watchos": {
-    "font_size": 43,
+    "font_size": 46,
     "isForked": false
   },
   "windows8": {

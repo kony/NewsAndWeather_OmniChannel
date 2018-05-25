@@ -1,0 +1,79 @@
+{
+	"@class": "com.kony.gen.viz.model.component.KVizLabel",
+	"DNDConfig": null,
+	"__parentReadjusting__": false,
+	"_height_": {
+		"type": "string",
+		"value": "58px"
+	},
+	"_width_": {
+		"type": "string",
+		"value": "278px"
+	},
+	"_margin_": [
+		0,
+		0,
+		0,
+		0
+	],
+	"_padding_": [
+		0,
+		0,
+		0,
+		0
+	],
+	"_wrapping_": 2,
+	"android": {
+		"textStyle": {
+			"letterSpacing": "null",
+			"lineSpacing": 0,
+			"strikeThrough": false
+		}
+	},
+	"canUpdateUI": true,
+	"containerweight": 100,
+	"contentalignment": 4,
+	"id": "NewsTitle",
+	"info": null,
+	"ipad": {
+		"psp": {
+			"wrapping": 2
+		},
+		"textStyle": {
+			"baseline": 0,
+			"lineSpacing": 0,
+			"letterSpacing": "null",
+			"strikeThrough": false
+		}
+	},
+	"iphone": {
+		"psp": {
+			"wrapping": 2
+		},
+		"textStyle": {
+			"baseline": 0,
+			"lineSpacing": 0,
+			"letterSpacing": "null",
+			"strikeThrough": false
+		}
+	},
+	"isvisible": true,
+	"name": "kony.ui.Label",
+	"tooltip": "",
+	"wType": "Label",
+	"kuid": "ps444f8ee03d7611e8831de1bd0e6fda5c",
+	"_text_": "Apple’s redesigned Mac Pro is coming in 2019",
+	"_left_": {
+		"type": "string",
+		"value": "4.25%"
+	},
+	"_top_": {
+		"type": "string",
+		"value": "42.48%"
+	},
+	"zindex": 1,
+	"pf": "userwidgetmodel",
+	"parent": "NewsCard105827998296576",
+	"focusskin": "ps444fdd013d7611e8831de1bd0e6fda5c",
+	"_skin_": "ps444fdd013d7611e8831de1bd0e6fda5c"
+}

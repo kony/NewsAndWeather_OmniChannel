@@ -25,7 +25,15 @@
                     "platform": "iOS",
                     "os": "11.0",
                     "url": "D:\\KonyVisualizerEnterprise8\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\485\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
-                    "filepath": "G:\\kony\\workspace\\V8GAspace\\NewsAndWeather\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "filepath": "C:\\Viz82QA142\\work\\NewsAndWeather\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "enable": true
+                },
+                "Kony_SDKCommons-iOS-11.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "C:\\Viz82QA135\\envi\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\459\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-iOS-11.0.zip",
+                    "filepath": "C:\\Viz82QA142\\work\\NewsAndWeather\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
                     "enable": true
                 }
             }
@@ -37,7 +45,7 @@
                     "platform": "Android",
                     "os": "4.0",
                     "url": "G:\\kony\\environment\\V8GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\459\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
-                    "filepath": "G:\\kony\\workspace\\V8GAspace\\NewsAndWeather\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "filepath": "C:\\Viz82QA142\\work\\NewsAndWeather\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
                     "enable": true
                 },
                 "android.accounts-Android-4.0": {
@@ -86,6 +94,14 @@
                     "os": "4.0",
                     "url": "D:\\v8GASpace\\.imports\\.temp\\import1313516181\\nativebindings\\Android\\4.0\\android.os-Android-4.0.zip",
                     "filepath": "D:\\v8GASpace\\NewAndWeather\\nativebindings\\Android\\4.0\\android.os-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SDKCommons-Android-4.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "C:\\Viz82QA135\\envi\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\459\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-Android-4.0.zip",
+                    "filepath": "C:\\Viz82QA142\\work\\NewsAndWeather\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
                     "enable": true
                 }
             }

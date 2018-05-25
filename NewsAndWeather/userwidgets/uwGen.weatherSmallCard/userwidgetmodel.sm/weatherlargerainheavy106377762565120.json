@@ -1,0 +1,57 @@
+{
+	"@class": "com.kony.gen.viz.model.component.KVizImage2",
+	"DNDConfig": null,
+	"__parentReadjusting__": false,
+	"_base64_": null,
+	"_margin_": [
+		0,
+		0,
+		0,
+		0
+	],
+	"_padding_": [
+		0,
+		0,
+		0,
+		0
+	],
+	"_skin_": "ps444f19b23d7611e8831de1bd0e6fda5c",
+	"canUpdateUI": true,
+	"containerweight": 100,
+	"context": {
+		"channel": "mobile",
+		"formID": "Form010323ec682294b",
+		"templateType": "forms",
+		"topLevelBox": null
+	},
+	"imagescalemode": 0,
+	"info": null,
+	"isvisible": true,
+	"name": "kony.ui.Image2",
+	"srcType": 1,
+	"wType": "Image",
+	"widgetalignment": 5,
+	"id": "weatherlargerainheavy106377762565120",
+	"kuid": "ps44f82af03d7611e8831de1bd0e6fda5c",
+	"_src_": "imgweatherlargerainheavy106377762565120.png",
+	"_width_": {
+		"type": "string",
+		"value": "45px"
+	},
+	"_height_": {
+		"type": "string",
+		"value": "40px"
+	},
+	"_left_": {
+		"type": "string",
+		"value": "29.52%"
+	},
+	"_top_": {
+		"type": "string",
+		"value": "36.36%"
+	},
+	"zindex": 3,
+	"pf": "userwidgetmodel",
+	"parent": "weatherSmallCard105827998273792",
+	"focusskin": "ps444f19b23d7611e8831de1bd0e6fda5c"
+}

@@ -3,7 +3,7 @@
     "font_color": "ffffffe0",
     "font_name": "roboto.regular",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "background_color": "00000000",
@@ -16,7 +16,7 @@
     "font_color": "ffffffe0",
     "font_name": "Helvetica",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "fontSizeInPx": false,
@@ -33,7 +33,7 @@
   },
   "iphone": {
     "font_color": "ffffffe0",
-    "font_name": "SFUIDisplay-Bold",
+    "font_name": "SFUIDisplay-Regular",
     "font_size": 120,
     "isForked": true
   },
@@ -42,7 +42,7 @@
     "font_color": "ffffffe0",
     "font_name": "FontAwesome",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "kuid": "sa53092d432944d49d9d41e42aa5b16e",
@@ -50,56 +50,56 @@
     "font_color": "ffffffe0",
     "font_name": "roboto.regular",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "spaandroidtablet": {
     "font_color": "ffffffe0",
     "font_name": "roboto.regular",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "spabb": {
     "font_color": "ffffffe0",
     "font_name": "Helvetica",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "spaip": {
     "font_color": "ffffffe0",
     "font_name": "SFUIText-Regular",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "spaipad": {
     "font_color": "ffffffe0",
     "font_name": "SFUIText-Regular",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "spawindowstablet": {
     "font_color": "ffffffe0",
     "font_name": "Helvetica",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "spawinphone8": {
     "font_color": "ffffffe0",
     "font_name": "Helvetica",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "tabrcandroid": {
     "font_color": "ffffffe0",
     "font_name": "roboto.regular",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "wType": "Label",
@@ -107,21 +107,21 @@
     "font_color": "ffffffe0",
     "font_name": "Helvetica",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "windows8": {
     "font_color": "ffffffe0",
     "font_name": "FontAwesome",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   },
   "winphone8": {
     "font_color": "ffffffe0",
     "font_name": "FontAwesome",
     "font_size": 120,
-    "font_weight": "bold",
+    "font_weight": "normal",
     "isForked": true
   }
 }

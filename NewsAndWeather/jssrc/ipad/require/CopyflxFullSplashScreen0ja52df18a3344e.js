@@ -62,7 +62,7 @@ define("CopyflxFullSplashScreen0ja52df18a3344e", function() {
         });
         var lblStrip = new kony.ui.Label({
             "centerX": "50%",
-            "height": "3px",
+            "height": "1px",
             "id": "lblStrip",
             "isVisible": true,
             "left": "0%",

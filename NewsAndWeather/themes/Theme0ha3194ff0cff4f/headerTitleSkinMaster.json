@@ -1,9 +1,4 @@
 {
-  "android": {
-    "font_name": "roboto.regular",
-    "font_size": 142,
-    "isForked": true
-  },
   "background_color": "00000000",
   "bg_type": "one",
   "border_color": "424242ff",
@@ -36,9 +31,7 @@
     "isForked": false
   },
   "iphone": {
-    "font_name": "SF-Pro-Text-Semibold",
-    "font_size": 121,
-    "isForked": true
+    "font_name": "SFUIDisplay-Bold"
   },
   "isDefaultSkin": false,
   "kiosk": {

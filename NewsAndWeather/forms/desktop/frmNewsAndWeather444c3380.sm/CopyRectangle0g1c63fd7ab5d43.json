@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "143px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "ps444f19b23d7611e8831de1bd0e6fda5c",
+    "_src_": "imgrectangle2140548320178928.png",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "desktop",
+        "formID": "frmNewsAndWeather444c3380",
+        "platform": "desktopweb",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "focusskin": "ps444f19b23d7611e8831de1bd0e6fda5c",
+    "id": "CopyRectangle0g1c63fd7ab5d43",
+    "imagescalemode": 0,
+    "info": null,
+    "isvisible": true,
+    "kuid": "beabc652c12d483c9ae69331ccb8572b",
+    "name": "kony.ui.Image2",
+    "parent": "weatherCard5",
+    "pf": "frmNewsAndWeather444c3380",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 0
+}

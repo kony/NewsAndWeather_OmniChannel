@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__b42893d096b545a48936da8005b0c3b3",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "if(kony.store.getItem(\"isFirstTime\") !== \"false\") {\n  this.view.flexKn.isVisible = true;\n}else{\n  this.view.flexKn.isVisible = false;\n}\n",
+            "codeSnippet": "this.view.flexScrollNewsAndWeather.showFadingEdges = false;\nif(kony.store.getItem(\"isKnSeen\") === undefined || kony.store.getItem(\"isKnSeen\") === null || kony.store.getItem(\"isKnSeen\") === false) {\n  this.view.flexKn.isVisible = true;\n}else{\n  this.view.flexKn.isVisible = false;\n}\n",
             "parentId": null,
             "callbackType": null
         }]

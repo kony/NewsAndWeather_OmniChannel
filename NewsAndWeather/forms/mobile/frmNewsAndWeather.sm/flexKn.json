@@ -41,8 +41,8 @@
     "canUpdateUI": true,
     "children": [
         "lblTap",
-        "Image0bb251a5f0e434a",
-        "Button0ea466a32c67241"
+        "imgArrow",
+        "btnClose"
     ],
     "clipbounds": true,
     "containerweight": 100,

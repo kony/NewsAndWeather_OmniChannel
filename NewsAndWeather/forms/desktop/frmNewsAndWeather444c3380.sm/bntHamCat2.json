@@ -27,7 +27,7 @@
         "value": ""
     },
     "_skin_": "ps4589e3a13d7611e8831de1bd0e6fda5c",
-    "_text_": "World",
+    "_text_": "GENERAL",
     "_top_": {
         "type": "number",
         "value": ""
@@ -81,7 +81,6 @@
                 "value": "10dp"
             },
             "skin": "ps4589e3a13d7611e8831de1bd0e6fda5c",
-            "text": "World",
             "top": {
                 "type": "string",
                 "value": "2dp"
@@ -114,7 +113,6 @@
                 "value": "10dp"
             },
             "skin": "ps4589e3a13d7611e8831de1bd0e6fda5c",
-            "text": "World",
             "top": {
                 "type": "string",
                 "value": "2dp"
@@ -147,7 +145,29 @@
                 "value": "10dp"
             },
             "skin": "ps4589e3a13d7611e8831de1bd0e6fda5c",
-            "text": "World",
+            "top": {
+                "type": "string",
+                "value": "2dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "80%"
+            }
+        },
+        "b4": {
+            "contentAlignment": 6,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "left": {
+                "type": "string",
+                "value": ""
+            },
+            "right": {
+                "type": "string",
+                "value": "10dp"
+            },
             "top": {
                 "type": "string",
                 "value": "2dp"

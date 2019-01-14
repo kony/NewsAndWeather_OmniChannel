@@ -22,6 +22,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "number",
+        "value": ""
+    },
     "_skin_": "ps4585ec013d7611e8831de1bd0e6fda5c",
     "_text_": "Kony Base Camp",
     "_top_": {
@@ -83,6 +87,17 @@
         },
         "b3": {
             "contentAlignment": 6
+        },
+        "b4": {
+            "contentAlignment": 6,
+            "left": {
+                "type": "string",
+                "value": ""
+            },
+            "right": {
+                "type": "string",
+                "value": "10dp"
+            }
         }
     },
     "tooltip": "",

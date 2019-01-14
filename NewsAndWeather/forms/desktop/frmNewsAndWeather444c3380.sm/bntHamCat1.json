@@ -134,6 +134,21 @@
                 "type": "string",
                 "value": "80%"
             }
+        },
+        "b4": {
+            "contentAlignment": 6,
+            "left": {
+                "type": "string",
+                "value": ""
+            },
+            "right": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "80%"
+            }
         }
     },
     "wType": "Button",

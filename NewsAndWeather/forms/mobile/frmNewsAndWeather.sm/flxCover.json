@@ -42,6 +42,7 @@
     "id": "flxCover",
     "ide_onClick": "AS_FlexContainer_f0ca25720a6d458e9a24ee101b6adcbf",
     "info": null,
+    "ismodalcontainer": false,
     "isvisible": false,
     "kuid": "b349983cedbe45e0ab0829db51c57b16",
     "layouttype": 2,

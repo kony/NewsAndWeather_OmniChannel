@@ -153,6 +153,30 @@
                 "type": "string",
                 "value": "80%"
             }
+        },
+        "b4": {
+            "contentAlignment": 6,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "left": {
+                "type": "string",
+                "value": ""
+            },
+            "right": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "text": "BUSINESS",
+            "top": {
+                "type": "string",
+                "value": "2dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "80%"
+            }
         }
     },
     "wType": "Button",

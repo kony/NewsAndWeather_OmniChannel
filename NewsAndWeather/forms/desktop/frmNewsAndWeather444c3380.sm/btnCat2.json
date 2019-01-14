@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "ps4589e3a13d7611e8831de1bd0e6fda5c",
-    "_text_": "World",
+    "_text_": "GENERAL",
     "_width_": {
         "type": "string",
-        "value": "58px"
+        "value": "70px"
     },
     "canUpdateUI": true,
     "centerx": {
@@ -69,14 +69,9 @@
                 "value": "2dp"
             },
             "skin": "ps4589e3a13d7611e8831de1bd0e6fda5c",
-            "text": "World",
             "top": {
                 "type": "string",
                 "value": ""
-            },
-            "width": {
-                "type": "string",
-                "value": "60px"
             }
         },
         "b2": {}

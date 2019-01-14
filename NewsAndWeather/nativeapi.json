@@ -25,16 +25,18 @@
                     "platform": "iOS",
                     "os": "11.0",
                     "url": "D:\\KonyVisualizerEnterprise8\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\485\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
-                    "filepath": "C:\\Viz82QA142\\work\\NewsAndWeather\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
-                    "enable": true
+                    "filepath": "D:\\KonyEnvironments\\KonyVisualizerEnterprise8.4.0.48\\Workspace\\NewsAndWeather\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "enable": true,
+                    "isDefault": true
                 },
                 "Kony_SDKCommons-iOS-11.0": {
                     "title": "Kony_SDKCommons",
                     "platform": "iOS",
                     "os": "11.0",
                     "url": "C:\\Viz82QA135\\envi\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\459\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-iOS-11.0.zip",
-                    "filepath": "C:\\Viz82QA142\\work\\NewsAndWeather\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
-                    "enable": true
+                    "filepath": "D:\\KonyEnvironments\\KonyVisualizerEnterprise8.4.0.48\\Workspace\\NewsAndWeather\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
+                    "enable": true,
+                    "isDefault": true
                 }
             }
         },
@@ -45,8 +47,9 @@
                     "platform": "Android",
                     "os": "4.0",
                     "url": "G:\\kony\\environment\\V8GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\459\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
-                    "filepath": "C:\\Viz82QA142\\work\\NewsAndWeather\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
-                    "enable": true
+                    "filepath": "D:\\KonyEnvironments\\KonyVisualizerEnterprise8.4.0.48\\Workspace\\NewsAndWeather\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": true
                 },
                 "android.accounts-Android-4.0": {
                     "title": "android.accounts",
@@ -54,7 +57,7 @@
                     "os": "4.0",
                     "url": "D:\\v8GASpace\\.imports\\.temp\\import1313516181\\nativebindings\\Android\\4.0\\android.accounts-Android-4.0.zip",
                     "filepath": "D:\\v8GASpace\\NewAndWeather\\nativebindings\\Android\\4.0\\android.accounts-Android-4.0.zip",
-                    "enable": true
+                    "enable": false
                 },
                 "android.webkit-Android-4.0": {
                     "title": "android.webkit",
@@ -62,7 +65,7 @@
                     "os": "4.0",
                     "url": "D:\\v8GASpace\\.imports\\.temp\\import1313516181\\nativebindings\\Android\\4.0\\android.webkit-Android-4.0.zip",
                     "filepath": "D:\\v8GASpace\\NewAndWeather\\nativebindings\\Android\\4.0\\android.webkit-Android-4.0.zip",
-                    "enable": true
+                    "enable": false
                 },
                 "android.net-Android-4.0": {
                     "title": "android.net",
@@ -70,7 +73,7 @@
                     "os": "4.0",
                     "url": "D:\\v8GASpace\\.imports\\.temp\\import1313516181\\nativebindings\\Android\\4.0\\android.net-Android-4.0.zip",
                     "filepath": "D:\\v8GASpace\\NewAndWeather\\nativebindings\\Android\\4.0\\android.net-Android-4.0.zip",
-                    "enable": true
+                    "enable": false
                 },
                 "android.content-Android-4.0": {
                     "title": "android.content",
@@ -78,7 +81,7 @@
                     "os": "4.0",
                     "url": "D:\\v8GASpace\\.imports\\.temp\\import1313516181\\nativebindings\\Android\\4.0\\android.content-Android-4.0.zip",
                     "filepath": "D:\\v8GASpace\\NewAndWeather\\nativebindings\\Android\\4.0\\android.content-Android-4.0.zip",
-                    "enable": true
+                    "enable": false
                 },
                 "java.lang-Android-4.0": {
                     "title": "java.lang",
@@ -86,7 +89,7 @@
                     "os": "4.0",
                     "url": "D:\\v8GASpace\\.imports\\.temp\\import1313516181\\nativebindings\\Android\\4.0\\java.lang-Android-4.0.zip",
                     "filepath": "D:\\v8GASpace\\NewAndWeather\\nativebindings\\Android\\4.0\\java.lang-Android-4.0.zip",
-                    "enable": true
+                    "enable": false
                 },
                 "android.os-Android-4.0": {
                     "title": "android.os",
@@ -94,15 +97,16 @@
                     "os": "4.0",
                     "url": "D:\\v8GASpace\\.imports\\.temp\\import1313516181\\nativebindings\\Android\\4.0\\android.os-Android-4.0.zip",
                     "filepath": "D:\\v8GASpace\\NewAndWeather\\nativebindings\\Android\\4.0\\android.os-Android-4.0.zip",
-                    "enable": true
+                    "enable": false
                 },
                 "Kony_SDKCommons-Android-4.0": {
                     "title": "Kony_SDKCommons",
                     "platform": "Android",
                     "os": "4.0",
                     "url": "C:\\Viz82QA135\\envi\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\459\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-Android-4.0.zip",
-                    "filepath": "C:\\Viz82QA142\\work\\NewsAndWeather\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
-                    "enable": true
+                    "filepath": "D:\\KonyEnvironments\\KonyVisualizerEnterprise8.4.0.48\\Workspace\\NewsAndWeather\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
+                    "enable": true,
+                    "isDefault": true
                 }
             }
         }

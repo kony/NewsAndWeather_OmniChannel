@@ -121,5 +121,10 @@ define({
     AS_Form_a7f526e98c254597935a8494341c8d23: function AS_Form_a7f526e98c254597935a8494341c8d23(eventobject) {
         var self = this;
         this.form1PostShow();
+    },
+    /** onBreakpointChange defined for frmNewsAndWeather444c3380 **/
+    AS_Form_a877e42730da4f8a9138baa7ad4e1823: function AS_Form_a877e42730da4f8a9138baa7ad4e1823(eventobject, breakpoint) {
+        var self = this;
+        this.screenResized(eventobject, breakpoint);
     }
 });

@@ -42,16 +42,14 @@
         "value": "50%"
     },
     "children": [
-        "category1",
-        "category2",
-        "category10",
-        "category3",
-        "category4",
-        "category5",
-        "category6",
-        "category7",
-        "category8",
-        "category9"
+        "flexCategory1",
+        "flexCategory2",
+        "flexCategory3",
+        "flexCategory4",
+        "flexCategory5",
+        "flexCategory6",
+        "flexCategory7",
+        "flexCategory8"
     ],
     "clipbounds": true,
     "containerweight": 100,

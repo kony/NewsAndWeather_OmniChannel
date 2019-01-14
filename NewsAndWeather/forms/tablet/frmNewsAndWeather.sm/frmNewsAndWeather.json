@@ -73,13 +73,11 @@
                 "kuid": "f45459c6ef744c05a3226d2d6ab9eabe",
                 "leftBarButtonItems": [
                     {
-                        "buttonClosureLeftSideView": "",
                         "kuid": "fe371443e9324edd9deb713f0e8bb07e",
                         "leftButtonText": "Back",
                         "leftTitle": "Back",
                         "prevFormTitle": false,
                         "titleBarLeftSideView": "button",
-                        "titleClosureLeftSideView": "",
                         "type": 4
                     }
                 ],
@@ -93,8 +91,8 @@
                             "title": "Edit"
                         },
                         "kuid": "j456cfb753804d0b8f8bda6c32636293",
-                        "onClick": "",
                         "style": 0,
+                        "tintColor": "333333",
                         "type": 1
                     }
                 ],

@@ -24,7 +24,7 @@
         0
     ],
     "_skin_": "sa24272997a744cc8ef0fbd6b75add43",
-    "_src_": "konymp_pl_shoe_1_list.png",
+    "_src_": "news.png",
     "_top_": {
         "type": "string",
         "value": "14dp"
@@ -44,7 +44,10 @@
     },
     "id": "imgNewsIcon",
     "imagescalemode": 1,
+    "imagewhenfailed": "news.png",
+    "imagewhiledownloading": "newshalfwhite.png",
     "info": null,
+    "invokedProperty": "imageWhenFailed",
     "isvisible": true,
     "kuid": "e07e0dd4f31f433dad3d27bca4fc6c71",
     "name": "kony.ui.Image2",

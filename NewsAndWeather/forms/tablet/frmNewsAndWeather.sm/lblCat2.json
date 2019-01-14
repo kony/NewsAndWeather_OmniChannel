@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s4913eeec8d94c709e5db71a17b0a1ef",
-    "_text_": "WORLD",
+    "_text_": "GENERAL",
     "_top_": {
         "type": "string",
         "value": "3dp"
@@ -63,6 +63,7 @@
     "name": "kony.ui.Label",
     "parent": "flxCat2",
     "pf": "frmNewsAndWeather",
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

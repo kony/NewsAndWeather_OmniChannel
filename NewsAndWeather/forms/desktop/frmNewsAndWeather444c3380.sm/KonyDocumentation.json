@@ -22,6 +22,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "number",
+        "value": ""
+    },
     "_skin_": "ps4585ec013d7611e8831de1bd0e6fda5c",
     "_text_": "Kony Documentation",
     "_top_": {
@@ -106,6 +110,29 @@
             "height": {
                 "type": "string",
                 "value": "40px"
+            },
+            "top": {
+                "type": "string",
+                "value": "2dp"
+            }
+        },
+        "b4": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "contentAlignment": 6,
+            "height": {
+                "type": "string",
+                "value": "40px"
+            },
+            "left": {
+                "type": "string",
+                "value": ""
+            },
+            "right": {
+                "type": "string",
+                "value": "10dp"
             },
             "top": {
                 "type": "string",

@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "28.93%"
+        "value": "50%"
     },
     "_wrapping_": 2,
     "android": {
@@ -63,6 +63,7 @@
     "name": "kony.ui.Label",
     "parent": "flexTodayWeather",
     "pf": "frmNewsAndWeather",
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

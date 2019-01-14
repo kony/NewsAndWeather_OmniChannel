@@ -1,0 +1,13 @@
+{
+  "subType" : "customapp",
+  "description" : "NewsAndWeatherApp",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "NewsAndWeatherService",
+    "version" : "1.0"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "TopStoriesandWeather",
+    "version" : "1.0"
+  } ]
+}

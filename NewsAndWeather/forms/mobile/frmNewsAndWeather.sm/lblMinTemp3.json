@@ -63,6 +63,7 @@
     "name": "kony.ui.Label",
     "parent": "flexWeather3",
     "pf": "frmNewsAndWeather",
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

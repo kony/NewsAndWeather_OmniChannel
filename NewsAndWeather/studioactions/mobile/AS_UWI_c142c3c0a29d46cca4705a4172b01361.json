@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__id04d6e55c2341279d4fa8d1c66e115d",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "this.flxCoverOnClick();\nisHelpClicked = true;\nkony.store.removeItem(\"isFirstTime\");\n",
+            "codeSnippet": "this.flxCoverOnClick();\nisHelpClicked = true;\nkony.store.removeItem(\"isKnseen\");\n\n",
             "parentId": null,
             "callbackType": null
         }]

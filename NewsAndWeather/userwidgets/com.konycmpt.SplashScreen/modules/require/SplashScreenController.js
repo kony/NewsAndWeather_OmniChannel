@@ -66,7 +66,7 @@ define(function() {
     {
       this.view.flxToolbar.top = "100%";
       var navObject = new kony.mvc.Navigation(this._frmNameToNavigate);
-      navObject.navigate("zead");
+      navObject.navigate();
     }
 
   };

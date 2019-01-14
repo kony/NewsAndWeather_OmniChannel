@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__j8c3a2723ae54316b97b183f9f53b502",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "this.view.flexKn.isVisible= false;\nkony.store.setItem(\"isFirstTime\", \"false\");",
+            "codeSnippet": "this.view.flexKn.isVisible= false;\nkony.store.setItem(\"isKnSeen\",true)",
             "parentId": null,
             "callbackType": null
         }]

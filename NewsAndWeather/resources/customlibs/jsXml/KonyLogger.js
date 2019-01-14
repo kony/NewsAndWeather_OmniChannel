@@ -6,6 +6,7 @@ KonyLogger.InitializeLogger.prototype.logWarning= function(message){};
 KonyLogger.InitializeLogger.prototype.logInfo= function(message){};
 KonyLogger.InitializeLogger.prototype.logError= function(message){};
 KonyLogger.InitializeLogger.prototype.logFatal= function(message){};
+KonyLogger.InitializeLogger.prototype.logPerf= function(message){};
 
 KonyLogger.getLogLevel= function(){};
 KonyLogger.flush= function(){};

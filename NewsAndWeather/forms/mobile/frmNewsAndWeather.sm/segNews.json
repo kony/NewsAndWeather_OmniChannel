@@ -46,7 +46,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "0.00%"
     },
     "_width_": {
         "type": "string",
@@ -56,7 +56,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "49.97%"
     },
     "containerweight": 100,
     "counter": "00",
@@ -112,6 +112,7 @@
     "separatorthickness": 1,
     "showscrollbars": false,
     "viewtype": "tableview",
+    "vizProps": {},
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {

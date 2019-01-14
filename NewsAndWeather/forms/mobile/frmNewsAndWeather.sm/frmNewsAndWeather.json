@@ -71,13 +71,11 @@
                 "kuid": "jb054a92d8994330a819e508331036c6",
                 "leftBarButtonItems": [
                     {
-                        "buttonClosureLeftSideView": "",
                         "kuid": "f3161b8f28ff46c08c013347639829ec",
                         "leftButtonText": "Back",
                         "leftTitle": "Back",
                         "prevFormTitle": false,
                         "titleBarLeftSideView": "button",
-                        "titleClosureLeftSideView": "",
                         "type": 4
                     }
                 ],
@@ -91,8 +89,8 @@
                             "title": "Edit"
                         },
                         "kuid": "c06e07bdda79461c8bd8c190d4511085",
-                        "onClick": "",
                         "style": 0,
+                        "tintColor": "333333",
                         "type": 1
                     }
                 ],
@@ -111,7 +109,7 @@
     "platform": "android",
     "postshow": "AS_Form_gfcfbfc2aaa143c792e79241bc0e0dd2",
     "preshow": "AS_Form_i719b3ff2f5745d5a5f32a8fff0609b2",
-    "prevDevice": "iPhone6",
+    "prevDevice": "iPhoneX",
     "prevPlatform": "iphone",
     "retainscrollposition": false,
     "shellCSS": "and_GalaxyS5",

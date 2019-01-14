@@ -102,7 +102,7 @@
     "titlebar": true,
     "type": 3,
     "vizProps": {
-        "globalRespDesignEnabled": true
+        "globalRespDesignEnabled": false
     },
     "wType": "Form"
 }

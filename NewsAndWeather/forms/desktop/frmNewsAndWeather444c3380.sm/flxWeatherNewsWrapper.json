@@ -112,6 +112,9 @@
                 "value": "10dp"
             }
         },
+        "b4": {
+            "layoutType": 3
+        },
         "property": {}
     },
     "retaincontentalignment": false,

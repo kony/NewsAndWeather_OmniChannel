@@ -91,6 +91,7 @@
                 "type": "string",
                 "value": "520px"
             },
+            "isVisible": false,
             "left": {
                 "type": "string",
                 "value": ""
@@ -106,6 +107,7 @@
                 "type": "string",
                 "value": "520px"
             },
+            "isVisible": false,
             "left": {
                 "type": "string",
                 "value": ""

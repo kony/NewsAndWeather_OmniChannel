@@ -72,6 +72,7 @@
     "spa": {
         "contentAlignment": 5
     },
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

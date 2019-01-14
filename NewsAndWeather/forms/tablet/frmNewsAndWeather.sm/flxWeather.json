@@ -53,7 +53,7 @@
     "enablescrolling": true,
     "id": "flxWeather",
     "info": null,
-    "isvisible": false,
+    "isvisible": true,
     "kuid": "eaf4e7f3a81e429a91f04997db33bfe9",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
